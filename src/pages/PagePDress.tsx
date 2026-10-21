@@ -131,6 +131,27 @@ export default function PagePDress() {
               <b>Resleting vest dibuka</b>, vest menutup bagian dada dan panggul.
             </span>
           </div>
+          <div style={{ display: 'flex', gap: '6px', fontSize: '9.8px', lineHeight: '1.35', marginTop: '2px' }}>
+            <span style={{ flex: 'none', marginTop: '2px' }}>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#C83835"
+                strokeWidth="3"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                style={{ width: '11px', height: '11px' }}
+              >
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+            </span>
+            <span>
+              {'Bawahan '}
+              <b>celana khaki</b>
+              {'. Petugas wanita '}
+              <b>boleh memakai rok khaki</b>.
+            </span>
+          </div>
           <div style={{ display: 'flex', gap: '6px', fontSize: '9.4px', lineHeight: '1.35', marginTop: '3px', color: '#7a2a28' }}>
             <span style={{ flex: 'none', marginTop: '2px' }}>
               <svg
@@ -183,7 +204,7 @@ export default function PagePDress() {
               <rect x="14" y="14" width="7" height="7" />
               <rect x="3" y="14" width="7" height="7" />
             </svg>
-            Bawahan khaki
+            Celana khaki / rok khaki
           </span>
           <span className="pill" style={{ background: '#fff', border: '1px solid #e3e3e6', fontSize: '9.6px', padding: '3px 8px' }}>
             <svg
@@ -258,7 +279,7 @@ export default function PagePDress() {
       </div>
       <div className="foot" style={{}}>
         <span className="pn" style={{}}>
-          43
+          41
         </span>
         <div className="prog">
           <a href="#c1" style={{ background: '#489D95', opacity: '0.25' }} />

@@ -99,6 +99,37 @@ export default function PageCg() {
             Alur Gamification
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
+            hal 56
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a
+          href="#p-gm-pov"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(255,255,255,.14)',
+            borderRadius: '12px',
+            padding: '9px 12px',
+            marginBottom: '6px',
+          }}
+        >
+          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
+            POV Nasabah
+          </span>
+          <span className="xs" style={{ opacity: '.75' }}>
             hal 57
           </span>
           <svg
@@ -179,7 +210,7 @@ export default function PageCg() {
       </div>
       <div className="foot" style={{ color: '#fff' }}>
         <span className="pn" style={{ color: '#fff' }}>
-          56
+          55
         </span>
         <div className="prog">
           <a href="#c1" style={{ background: '#fff', opacity: '0.35' }} />

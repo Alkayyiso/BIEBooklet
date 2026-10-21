@@ -49,9 +49,17 @@ export default function PagePGesture() {
           }}
         >
           <ZoomImg
-            src="assets/img/msh.jpg"
+            src="assets/img/msh1.jpg"
             alt=""
-            style={{ width: '96px', height: '104px', objectFit: 'contain', background: '#fff', borderRadius: '12px', flex: 'none' }}
+            style={{
+              width: '104px',
+              height: '112px',
+              objectFit: 'cover',
+              objectPosition: '50% 15%',
+              background: '#fff',
+              borderRadius: '12px',
+              flex: 'none',
+            }}
           />
           <div style={{ flex: '1' }}>
             <div className="kick" style={{ color: '#EEA948', fontSize: '9px' }}>
@@ -167,9 +175,9 @@ export default function PagePGesture() {
           <div className="card" style={{ display: 'flex', gap: '9px', padding: '6px', alignItems: 'center' }}>
             <div style={{ width: '112px', height: '128px', flex: 'none', borderRadius: '9px', overflow: 'hidden', background: '#f3f3f4' }}>
               <ZoomImg
-                src="assets/img/gs2.jpg"
+                src="assets/img/gs2.png"
                 alt=""
-                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 0%' }}
+                style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: '50% 0%', background: '#EAF3F1' }}
               />
             </div>
             <div style={{ flex: '1', minWidth: '0' }}>
@@ -228,7 +236,7 @@ export default function PagePGesture() {
           <div className="card" style={{ display: 'flex', gap: '9px', padding: '6px', alignItems: 'center' }}>
             <div style={{ width: '112px', height: '128px', flex: 'none', borderRadius: '9px', overflow: 'hidden', background: '#f3f3f4' }}>
               <ZoomImg
-                src="assets/img/gs3.jpg"
+                src="assets/img/gs13.jpg"
                 alt=""
                 style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 0%' }}
               />
@@ -249,7 +257,7 @@ export default function PagePGesture() {
                   #3
                 </span>
                 <span className="b" style={{ fontSize: '11px', lineHeight: '1.15' }}>
-                  Menunjuk lokasi/objek besar
+                  Saat customer menekan PIN
                 </span>
               </div>
               <div style={{ display: 'flex', gap: '5px', fontSize: '9.4px', lineHeight: '1.33', marginTop: '2px' }}>
@@ -266,7 +274,7 @@ export default function PagePGesture() {
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
                 </span>
-                <span>Telapak terbuka, siku sedikit ditekuk, 4 jari berhimpit</span>
+                <span>Pinpad, EDC, BYOND, atau ATM/CRM</span>
               </div>
               <div style={{ display: 'flex', gap: '5px', fontSize: '9.4px', lineHeight: '1.33', marginTop: '2px' }}>
                 <span style={{ flex: 'none', marginTop: '2px' }}>
@@ -282,7 +290,7 @@ export default function PagePGesture() {
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
                 </span>
-                <span>Wajah ke arah lokasi. Boleh tangan kiri bila lokasi di kiri</span>
+                <span>Palingkan wajah dari tangan customer</span>
               </div>
             </div>
           </div>
@@ -290,7 +298,7 @@ export default function PagePGesture() {
       </div>
       <div className="foot" style={{}}>
         <span className="pn" style={{}}>
-          50
+          48
         </span>
         <div className="prog">
           <a href="#c1" style={{ background: '#489D95', opacity: '0.25' }} />

@@ -130,7 +130,7 @@ export default function PageC1() {
           }}
         >
           <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
-            Rundown Day 1 (Jumat)
+            Rundown Day 1
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
             hal 06
@@ -161,7 +161,7 @@ export default function PageC1() {
           }}
         >
           <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
-            {'Rundown Day 2 & 3 (Sab-Min)'}
+            {'Rundown Day 2 & 3'}
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
             hal 07

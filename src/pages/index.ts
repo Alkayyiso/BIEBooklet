@@ -36,8 +36,6 @@ import PagePIt from './PagePIt';
 import PagePItStandby from './PagePItStandby';
 import PagePInsiden from './PagePInsiden';
 import PagePInsiden2 from './PagePInsiden2';
-import PagePBcp from './PagePBcp';
-import PagePBcp2 from './PagePBcp2';
 import PagePEnabler from './PagePEnabler';
 import PagePOase from './PagePOase';
 import PageC6 from './PageC6';
@@ -54,9 +52,11 @@ import PagePGesture2 from './PagePGesture2';
 import PagePGesture3 from './PagePGesture3';
 import PagePGesture4 from './PagePGesture4';
 import PagePScript from './PagePScript';
+import PagePScript2 from './PagePScript2';
 import PagePDodont from './PagePDodont';
 import PageCg from './PageCg';
 import PagePGmAlur from './PagePGmAlur';
+import PagePGmPov from './PagePGmPov';
 import PagePGmPoin from './PagePGmPoin';
 import PagePGmKetentuan from './PagePGmKetentuan';
 import PageC7 from './PageC7';
@@ -66,6 +66,9 @@ import PagePApar from './PagePApar';
 import PagePDamkar from './PagePDamkar';
 import PagePFasilitas from './PagePFasilitas';
 import PagePKeamanan from './PagePKeamanan';
+import PagePBcpInfo from './PagePBcpInfo';
+import PagePBcp from './PagePBcp';
+import PagePBcp2 from './PagePBcp2';
 import PageBack from './PageBack';
 
 export interface BookPage {
@@ -121,27 +124,27 @@ export const pages: BookPage[] = [
   { id: 'p-it-standby', title: 'Tim IT Standby', kicker: 'Operasional', pageNumber: '34', isChapterCover: false, Component: PagePItStandby },
   { id: 'p-insiden', title: 'Penanganan Insiden IT', kicker: 'Operasional', pageNumber: '35', isChapterCover: false, Component: PagePInsiden },
   { id: 'p-insiden2', title: 'BCP, Recovery & Review', kicker: 'Penanganan insiden IT', pageNumber: '36', isChapterCover: false, Component: PagePInsiden2 },
-  { id: 'p-bcp', title: 'BCP BYOND', kicker: 'Operasional', pageNumber: '37', isChapterCover: false, Component: PagePBcp },
-  { id: 'p-bcp2', title: 'BCP BYOND #8 s.d. #13', kicker: 'BCP BYOND', pageNumber: '38', isChapterCover: false, Component: PagePBcp2 },
-  { id: 'p-enabler', title: 'Kartu & Buku Tabungan', kicker: 'Operasional', pageNumber: '39', isChapterCover: false, Component: PagePEnabler },
-  { id: 'p-oase', title: 'Pelaporan OASE', kicker: 'Operasional', pageNumber: '40', isChapterCover: false, Component: PagePOase },
-  { id: 'c6', title: null, kicker: 'Bab 06', pageNumber: '41', isChapterCover: true, Component: PageC6 },
-  { id: 'p-cx', title: 'Bersama Jaga Customer Experience', kicker: 'Brand', pageNumber: '42', isChapterCover: false, Component: PagePCx },
-  { id: 'p-dress', title: 'Dress Code', kicker: 'Brand', pageNumber: '43', isChapterCover: false, Component: PagePDress },
-  { id: 'p-grooming', title: 'Grooming Pria: Rambut & Wajah', kicker: 'Grooming', pageNumber: '44', isChapterCover: false, Component: PagePGrooming },
-  { id: 'p-grooming2', title: 'Grooming Pria: Kemeja & Belt', kicker: 'Grooming', pageNumber: '45', isChapterCover: false, Component: PagePGrooming2 },
-  { id: 'p-grooming3', title: 'Aksesori & Kaos Kaki', kicker: 'Grooming', pageNumber: '46', isChapterCover: false, Component: PagePGrooming3 },
-  { id: 'p-grooming4', title: 'Sepatu & Hijab', kicker: 'Grooming', pageNumber: '47', isChapterCover: false, Component: PagePGrooming4 },
-  { id: 'p-grooming5', title: 'Grooming Wanita: Aksesori', kicker: 'Grooming', pageNumber: '48', isChapterCover: false, Component: PagePGrooming5 },
-  { id: 'p-emas', title: 'Standar Layanan E.M.A.S', kicker: 'People', pageNumber: '49', isChapterCover: false, Component: PagePEmas },
-  { id: 'p-gesture', title: 'Gesture Petugas', kicker: 'People', pageNumber: '50', isChapterCover: false, Component: PagePGesture },
-  { id: 'p-gesture2', title: 'Gesture Petugas #4 s.d. #7', kicker: 'People', pageNumber: '51', isChapterCover: false, Component: PagePGesture2 },
-  { id: 'p-gesture3', title: 'Gesture Petugas #8 s.d. #10', kicker: 'People', pageNumber: '52', isChapterCover: false, Component: PagePGesture3 },
-  { id: 'p-gesture4', title: 'Gesture Petugas #11 s.d. #13', kicker: 'People', pageNumber: '53', isChapterCover: false, Component: PagePGesture4 },
-  { id: 'p-script', title: 'Script Greeting', kicker: 'Process', pageNumber: '54', isChapterCover: false, Component: PagePScript },
-  { id: 'p-dodont', title: "Do & Don't", kicker: 'Sikap & Penampilan', pageNumber: '55', isChapterCover: false, Component: PagePDodont },
-  { id: 'cg', title: null, kicker: 'Bab 07', pageNumber: '56', isChapterCover: false, Component: PageCg },
-  { id: 'p-gm-alur', title: 'Alur Gamification', kicker: 'Gamification', pageNumber: '57', isChapterCover: false, Component: PagePGmAlur },
+  { id: 'p-enabler', title: 'Kartu & Buku Tabungan', kicker: 'Operasional', pageNumber: '37', isChapterCover: false, Component: PagePEnabler },
+  { id: 'p-oase', title: 'Pelaporan OASE', kicker: 'Operasional', pageNumber: '38', isChapterCover: false, Component: PagePOase },
+  { id: 'c6', title: null, kicker: 'Bab 06', pageNumber: '39', isChapterCover: true, Component: PageC6 },
+  { id: 'p-cx', title: 'Bersama Jaga Customer Experience', kicker: 'Brand', pageNumber: '40', isChapterCover: false, Component: PagePCx },
+  { id: 'p-dress', title: 'Dress Code', kicker: 'Brand', pageNumber: '41', isChapterCover: false, Component: PagePDress },
+  { id: 'p-grooming', title: 'Grooming Pria: Rambut & Wajah', kicker: 'Grooming', pageNumber: '42', isChapterCover: false, Component: PagePGrooming },
+  { id: 'p-grooming2', title: 'Grooming Pria: Kemeja & Belt', kicker: 'Grooming', pageNumber: '43', isChapterCover: false, Component: PagePGrooming2 },
+  { id: 'p-grooming3', title: 'Aksesori & Kaos Kaki', kicker: 'Grooming', pageNumber: '44', isChapterCover: false, Component: PagePGrooming3 },
+  { id: 'p-grooming4', title: 'Sepatu & Hijab', kicker: 'Grooming', pageNumber: '45', isChapterCover: false, Component: PagePGrooming4 },
+  { id: 'p-grooming5', title: 'Grooming Wanita: Aksesori', kicker: 'Grooming', pageNumber: '46', isChapterCover: false, Component: PagePGrooming5 },
+  { id: 'p-emas', title: 'Standar Layanan E.M.A.S', kicker: 'People', pageNumber: '47', isChapterCover: false, Component: PagePEmas },
+  { id: 'p-gesture', title: 'Gesture Petugas', kicker: 'People', pageNumber: '48', isChapterCover: false, Component: PagePGesture },
+  { id: 'p-gesture2', title: 'Gesture Petugas #4 s.d. #7', kicker: 'People', pageNumber: '49', isChapterCover: false, Component: PagePGesture2 },
+  { id: 'p-gesture3', title: 'Gesture Petugas #8 s.d. #10', kicker: 'People', pageNumber: '50', isChapterCover: false, Component: PagePGesture3 },
+  { id: 'p-gesture4', title: 'Gesture Petugas #11 s.d. #13', kicker: 'People', pageNumber: '51', isChapterCover: false, Component: PagePGesture4 },
+  { id: 'p-script', title: 'Script Greeting', kicker: 'Process', pageNumber: '52', isChapterCover: false, Component: PagePScript },
+  { id: 'p-script2', title: 'Script Greeting (lanjutan)', kicker: 'Process', pageNumber: '53', isChapterCover: false, Component: PagePScript2 },
+  { id: 'p-dodont', title: "Do & Don't", kicker: 'Sikap & Penampilan', pageNumber: '54', isChapterCover: false, Component: PagePDodont },
+  { id: 'cg', title: null, kicker: 'Bab 07', pageNumber: '55', isChapterCover: false, Component: PageCg },
+  { id: 'p-gm-alur', title: 'Alur Gamification', kicker: 'Gamification', pageNumber: '56', isChapterCover: false, Component: PagePGmAlur },
+  { id: 'p-gm-pov', title: 'Registrasi Jelajah BIE', kicker: 'POV Nasabah', pageNumber: '57', isChapterCover: false, Component: PagePGmPov },
   { id: 'p-gm-poin', title: 'Aktivitas & Poin', kicker: 'Gamification', pageNumber: '58', isChapterCover: false, Component: PagePGmPoin },
   { id: 'p-gm-ketentuan', title: 'Ketentuan Gamification', kicker: 'Gamification', pageNumber: '59', isChapterCover: false, Component: PagePGmKetentuan },
   { id: 'c7', title: null, kicker: 'Bab 08', pageNumber: '60', isChapterCover: true, Component: PageC7 },
@@ -151,5 +154,8 @@ export const pages: BookPage[] = [
   { id: 'p-damkar', title: 'Mobil Damkar & Fasilitas VIP', kicker: 'Keselamatan', pageNumber: '64', isChapterCover: false, Component: PagePDamkar },
   { id: 'p-fasilitas', title: 'Fasilitas Umum & Emergency', kicker: 'Keselamatan', pageNumber: '65', isChapterCover: false, Component: PagePFasilitas },
   { id: 'p-keamanan', title: 'Keamanan & BCM', kicker: 'Keselamatan', pageNumber: '66', isChapterCover: false, Component: PagePKeamanan },
-  { id: 'back', title: null, kicker: 'Akses cepat', pageNumber: '67', isChapterCover: false, Component: PageBack },
+  { id: 'p-bcp-info', title: 'Business Continuity Plan', kicker: 'BCP', pageNumber: '67', isChapterCover: false, Component: PagePBcpInfo },
+  { id: 'p-bcp', title: 'BCP BYOND', kicker: 'Keselamatan', pageNumber: '68', isChapterCover: false, Component: PagePBcp },
+  { id: 'p-bcp2', title: 'BCP BYOND #8 s.d. #14', kicker: 'BCP BYOND', pageNumber: '69', isChapterCover: false, Component: PagePBcp2 },
+  { id: 'back', title: null, kicker: 'Akses cepat', pageNumber: '70', isChapterCover: false, Component: PageBack },
 ];

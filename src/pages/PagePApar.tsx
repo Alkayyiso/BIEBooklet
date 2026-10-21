@@ -397,34 +397,9 @@ export default function PagePApar() {
                   </span>
                   <span style={{ fontSize: '8.6px', color: '#5d5e63', lineHeight: '1.1' }}>dispenser</span>
                 </div>
-                <div
-                  style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '5px',
-                    background: '#1F7A4D14',
-                    borderRadius: '9px',
-                    padding: '4px 7px',
-                  }}
-                >
-                  <span className="ic" style={{ width: '20px', height: '20px', background: '#1F7A4D' }}>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-                      <polyline points="3 6 5 6 21 6" />
-                      <path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6" />
-                    </svg>
-                  </span>
-                  <span className="big num" style={{ fontSize: '15px' }}>
-                    2
-                  </span>
-                  <span style={{ fontSize: '8.6px', color: '#5d5e63', lineHeight: '1.1' }}>
-                    tempat
-                    <br />
-                    sampah
-                  </span>
-                </div>
               </div>
               <div style={{ fontSize: '8.4px', color: '#6b6c70', marginTop: '3px', lineHeight: '1.25' }}>
-                Dispenser dekat Consultancy Corner, tempat sampah dekat Money Changer.
+                Dispenser dekat BSI Consultancy Corner.
               </div>
             </div>
           </div>

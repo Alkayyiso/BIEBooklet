@@ -82,7 +82,7 @@ export default function PageC5() {
           Operasional
         </div>
         <div style={{ fontSize: '12px', opacity: '.9', marginBottom: '16px', maxWidth: '320px' }}>
-          {'Kesiapan layanan, dukungan IT, penanganan insiden & BCP, enabler, dan pelaporan'}
+          Kesiapan layanan, dukungan IT, penanganan insiden, enabler, dan pelaporan
         </div>
         <a
           href="#p-kesiapan"
@@ -221,72 +221,10 @@ export default function PageC5() {
           }}
         >
           <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
-            Insiden IT: BCP s.d. Review
+            {'Insiden IT: BCP & Review'}
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
             hal 36
-          </span>
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#fff"
-            strokeWidth="2.2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            style={{ width: '14px', height: '14px' }}
-          >
-            <line x1="5" y1="12" x2="19" y2="12" />
-            <polyline points="12 5 19 12 12 19" />
-          </svg>
-        </a>
-        <a
-          href="#p-bcp"
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px',
-            background: 'rgba(255,255,255,.14)',
-            borderRadius: '12px',
-            padding: '6px 12px',
-            marginBottom: '4px',
-          }}
-        >
-          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
-            BCP BYOND #1 s.d. #7
-          </span>
-          <span className="xs" style={{ opacity: '.75' }}>
-            hal 37
-          </span>
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#fff"
-            strokeWidth="2.2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            style={{ width: '14px', height: '14px' }}
-          >
-            <line x1="5" y1="12" x2="19" y2="12" />
-            <polyline points="12 5 19 12 12 19" />
-          </svg>
-        </a>
-        <a
-          href="#p-bcp2"
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '10px',
-            background: 'rgba(255,255,255,.14)',
-            borderRadius: '12px',
-            padding: '6px 12px',
-            marginBottom: '4px',
-          }}
-        >
-          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
-            BCP BYOND #8 s.d. #13
-          </span>
-          <span className="xs" style={{ opacity: '.75' }}>
-            hal 38
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -317,7 +255,7 @@ export default function PageC5() {
             {'Kartu & Buku Tabungan'}
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 39
+            hal 37
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -348,7 +286,7 @@ export default function PageC5() {
             Pelaporan OASE
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 40
+            hal 38
           </span>
           <svg
             viewBox="0 0 24 24"

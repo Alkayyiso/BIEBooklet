@@ -126,45 +126,6 @@ export default function PagePLink() {
                   <span style={{ fontSize: '8.2px', opacity: '.75' }}>data visitor</span>
                 </span>
               </a>
-              <a
-                className="lnk"
-                href="https://docs.google.com/spreadsheets/d/1lmCs1ikfJ12l2dhvzCaiPOfvzSjl2QSlbr3u3otnu7A/edit?usp=sharing"
-                style={{
-                  flex: '1',
-                  minWidth: '0',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px',
-                  background: '#fff',
-                  color: '#26272B',
-                  border: '1.5px solid #e3e3e6',
-                  borderRadius: '10px',
-                  padding: '6px 7px',
-                }}
-                target="_blank"
-                rel="noopener"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#14B1A6"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  style={{ width: '16px', height: '16px' }}
-                >
-                  <rect x="3" y="3" width="7" height="7" />
-                  <rect x="14" y="3" width="7" height="7" />
-                  <rect x="14" y="14" width="7" height="7" />
-                  <rect x="3" y="14" width="7" height="7" />
-                </svg>
-                <span style={{ lineHeight: '1.15', minWidth: '0' }}>
-                  <span className="b" style={{ fontSize: '10.2px', display: 'block', whiteSpace: 'nowrap' }}>
-                    Database
-                  </span>
-                  <span style={{ fontSize: '8.2px', opacity: '.75' }}>spreadsheet</span>
-                </span>
-              </a>
             </div>
           </div>
           <div className="card" style={{ padding: '8px 10px', borderLeft: '6px solid #8C8F94' }}>
@@ -253,45 +214,6 @@ export default function PagePLink() {
                     Dashboard
                   </span>
                   <span style={{ fontSize: '8.2px', opacity: '.75' }}>data visitor</span>
-                </span>
-              </a>
-              <a
-                className="lnk"
-                href="https://docs.google.com/spreadsheets/d/1p3q7jfGnn_Uigyn81LQu3cFDYVg2niv_svQOWXU_v9Y/edit?usp=sharing"
-                style={{
-                  flex: '1',
-                  minWidth: '0',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px',
-                  background: '#fff',
-                  color: '#26272B',
-                  border: '1.5px solid #e3e3e6',
-                  borderRadius: '10px',
-                  padding: '6px 7px',
-                }}
-                target="_blank"
-                rel="noopener"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#8C8F94"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  style={{ width: '16px', height: '16px' }}
-                >
-                  <rect x="3" y="3" width="7" height="7" />
-                  <rect x="14" y="3" width="7" height="7" />
-                  <rect x="14" y="14" width="7" height="7" />
-                  <rect x="3" y="14" width="7" height="7" />
-                </svg>
-                <span style={{ lineHeight: '1.15', minWidth: '0' }}>
-                  <span className="b" style={{ fontSize: '10.2px', display: 'block', whiteSpace: 'nowrap' }}>
-                    Database
-                  </span>
-                  <span style={{ fontSize: '8.2px', opacity: '.75' }}>spreadsheet</span>
                 </span>
               </a>
             </div>
@@ -384,45 +306,6 @@ export default function PagePLink() {
                   <span style={{ fontSize: '8.2px', opacity: '.75' }}>data visitor</span>
                 </span>
               </a>
-              <a
-                className="lnk"
-                href="https://docs.google.com/spreadsheets/d/1GbsfBB7R3Yd9VAINJ6a6Lg4n3XN2kVYTeLjXVfSC6PU/edit?usp=sharing"
-                style={{
-                  flex: '1',
-                  minWidth: '0',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px',
-                  background: '#fff',
-                  color: '#26272B',
-                  border: '1.5px solid #e3e3e6',
-                  borderRadius: '10px',
-                  padding: '6px 7px',
-                }}
-                target="_blank"
-                rel="noopener"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#F08C00"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  style={{ width: '16px', height: '16px' }}
-                >
-                  <rect x="3" y="3" width="7" height="7" />
-                  <rect x="14" y="3" width="7" height="7" />
-                  <rect x="14" y="14" width="7" height="7" />
-                  <rect x="3" y="14" width="7" height="7" />
-                </svg>
-                <span style={{ lineHeight: '1.15', minWidth: '0' }}>
-                  <span className="b" style={{ fontSize: '10.2px', display: 'block', whiteSpace: 'nowrap' }}>
-                    Database
-                  </span>
-                  <span style={{ fontSize: '8.2px', opacity: '.75' }}>spreadsheet</span>
-                </span>
-              </a>
             </div>
           </div>
           <div className="card" style={{ padding: '8px 10px', borderLeft: '6px solid #D020DC' }}>
@@ -511,45 +394,6 @@ export default function PagePLink() {
                     Dashboard
                   </span>
                   <span style={{ fontSize: '8.2px', opacity: '.75' }}>data visitor</span>
-                </span>
-              </a>
-              <a
-                className="lnk"
-                href="https://docs.google.com/spreadsheets/d/1PMxk0H0HddxB4a5q7wg3cMZF2QhYlNLhjXxHIOKAASI/edit?usp=sharing"
-                style={{
-                  flex: '1',
-                  minWidth: '0',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px',
-                  background: '#fff',
-                  color: '#26272B',
-                  border: '1.5px solid #e3e3e6',
-                  borderRadius: '10px',
-                  padding: '6px 7px',
-                }}
-                target="_blank"
-                rel="noopener"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#D020DC"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  style={{ width: '16px', height: '16px' }}
-                >
-                  <rect x="3" y="3" width="7" height="7" />
-                  <rect x="14" y="3" width="7" height="7" />
-                  <rect x="14" y="14" width="7" height="7" />
-                  <rect x="3" y="14" width="7" height="7" />
-                </svg>
-                <span style={{ lineHeight: '1.15', minWidth: '0' }}>
-                  <span className="b" style={{ fontSize: '10.2px', display: 'block', whiteSpace: 'nowrap' }}>
-                    Database
-                  </span>
-                  <span style={{ fontSize: '8.2px', opacity: '.75' }}>spreadsheet</span>
                 </span>
               </a>
             </div>
@@ -642,45 +486,6 @@ export default function PagePLink() {
                   <span style={{ fontSize: '8.2px', opacity: '.75' }}>data visitor</span>
                 </span>
               </a>
-              <a
-                className="lnk"
-                href="https://docs.google.com/spreadsheets/d/1sWIif7RD8yD3kn4aGLjeOwo5C7kJ6d9MP3LkS56EUio/edit?usp=sharing"
-                style={{
-                  flex: '1',
-                  minWidth: '0',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px',
-                  background: '#fff',
-                  color: '#26272B',
-                  border: '1.5px solid #e3e3e6',
-                  borderRadius: '10px',
-                  padding: '6px 7px',
-                }}
-                target="_blank"
-                rel="noopener"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#EDB12F"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  style={{ width: '16px', height: '16px' }}
-                >
-                  <rect x="3" y="3" width="7" height="7" />
-                  <rect x="14" y="3" width="7" height="7" />
-                  <rect x="14" y="14" width="7" height="7" />
-                  <rect x="3" y="14" width="7" height="7" />
-                </svg>
-                <span style={{ lineHeight: '1.15', minWidth: '0' }}>
-                  <span className="b" style={{ fontSize: '10.2px', display: 'block', whiteSpace: 'nowrap' }}>
-                    Database
-                  </span>
-                  <span style={{ fontSize: '8.2px', opacity: '.75' }}>spreadsheet</span>
-                </span>
-              </a>
             </div>
           </div>
           <div className="card" style={{ padding: '8px 10px', borderLeft: '6px solid #3B3B3E' }}>
@@ -771,45 +576,6 @@ export default function PagePLink() {
                   <span style={{ fontSize: '8.2px', opacity: '.75' }}>data visitor</span>
                 </span>
               </a>
-              <a
-                className="lnk"
-                href="https://docs.google.com/spreadsheets/d/1fSJR-g5CgjBFeaLO4FRHpGsph4WNPqsL0gzkEK78INI/edit?usp=sharing"
-                style={{
-                  flex: '1',
-                  minWidth: '0',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '6px',
-                  background: '#fff',
-                  color: '#26272B',
-                  border: '1.5px solid #e3e3e6',
-                  borderRadius: '10px',
-                  padding: '6px 7px',
-                }}
-                target="_blank"
-                rel="noopener"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="#3B3B3E"
-                  strokeWidth="2.2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  style={{ width: '16px', height: '16px' }}
-                >
-                  <rect x="3" y="3" width="7" height="7" />
-                  <rect x="14" y="3" width="7" height="7" />
-                  <rect x="14" y="14" width="7" height="7" />
-                  <rect x="3" y="14" width="7" height="7" />
-                </svg>
-                <span style={{ lineHeight: '1.15', minWidth: '0' }}>
-                  <span className="b" style={{ fontSize: '10.2px', display: 'block', whiteSpace: 'nowrap' }}>
-                    Database
-                  </span>
-                  <span style={{ fontSize: '8.2px', opacity: '.75' }}>spreadsheet</span>
-                </span>
-              </a>
             </div>
           </div>
         </div>
@@ -832,8 +598,8 @@ export default function PagePLink() {
             </svg>
           </span>
           <div style={{ fontSize: '9.8px', lineHeight: '1.4' }}>
-            <b>Database berisi data pribadi nasabah.</b>
-            {' Buka hanya untuk keperluan tugas dan jangan teruskan link ke pihak di luar tim.'}
+            <b>Link khusus internal BSI.</b>
+            {' Kirim link registrasi hanya ke tamu yang sesuai, dan jangan teruskan link dashboard ke pihak di luar tim.'}
           </div>
         </div>
       </div>

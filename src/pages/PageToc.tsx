@@ -102,9 +102,9 @@ export default function PageToc() {
                 href="#p-jadwal"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
@@ -118,32 +118,32 @@ export default function PageToc() {
                 href="#p-rundown1"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
                   fontWeight: '600',
                 }}
               >
-                {'Rundown Day 1 (Jumat) '}
+                {'Rundown Day 1 '}
                 <span style={{ opacity: '.6' }}>06</span>
               </a>
               <a
                 href="#p-rundown23"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
                   fontWeight: '600',
                 }}
               >
-                {'Rundown Day 2 & 3 (Sab-Min) '}
+                {'Rundown Day 2 & 3 '}
                 <span style={{ opacity: '.6' }}>07</span>
               </a>
             </div>
@@ -174,9 +174,9 @@ export default function PageToc() {
                 href="#p-jalur"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -190,9 +190,9 @@ export default function PageToc() {
                 href="#p-undangan"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -206,9 +206,9 @@ export default function PageToc() {
                 href="#p-walkin"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -222,9 +222,9 @@ export default function PageToc() {
                 href="#p-booth"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -238,9 +238,9 @@ export default function PageToc() {
                 href="#p-tiket"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -254,9 +254,9 @@ export default function PageToc() {
                 href="#p-form"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -270,9 +270,9 @@ export default function PageToc() {
                 href="#p-link"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -286,9 +286,9 @@ export default function PageToc() {
                 href="#p-wa"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -326,9 +326,9 @@ export default function PageToc() {
                 href="#p-area"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FDF1DC',
                   color: '#C9862A',
@@ -342,9 +342,9 @@ export default function PageToc() {
                 href="#p-halla"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FDF1DC',
                   color: '#C9862A',
@@ -358,9 +358,9 @@ export default function PageToc() {
                 href="#p-hallb"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FDF1DC',
                   color: '#C9862A',
@@ -374,9 +374,9 @@ export default function PageToc() {
                 href="#p-pavilion"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FDF1DC',
                   color: '#C9862A',
@@ -414,9 +414,9 @@ export default function PageToc() {
                 href="#p-shift"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#ECEDEF',
                   color: '#3D3E42',
@@ -430,9 +430,9 @@ export default function PageToc() {
                 href="#p-tenaga"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#ECEDEF',
                   color: '#3D3E42',
@@ -446,9 +446,9 @@ export default function PageToc() {
                 href="#p-rekap"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#ECEDEF',
                   color: '#3D3E42',
@@ -462,9 +462,9 @@ export default function PageToc() {
                 href="#p-daftar"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#ECEDEF',
                   color: '#3D3E42',
@@ -478,9 +478,9 @@ export default function PageToc() {
                 href="#p-jumat"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#ECEDEF',
                   color: '#3D3E42',
@@ -494,25 +494,25 @@ export default function PageToc() {
                 href="#p-weekend"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#ECEDEF',
                   color: '#3D3E42',
                   fontWeight: '600',
                 }}
               >
-                {'Penempatan Sabtu & Minggu '}
+                {'Penempatan Sab-Min '}
                 <span style={{ opacity: '.6' }}>28</span>
               </a>
               <a
                 href="#p-pic"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#ECEDEF',
                   color: '#3D3E42',
@@ -526,9 +526,9 @@ export default function PageToc() {
                 href="#p-picritme"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#ECEDEF',
                   color: '#3D3E42',
@@ -566,9 +566,9 @@ export default function PageToc() {
                 href="#p-kesiapan"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
@@ -582,9 +582,9 @@ export default function PageToc() {
                 href="#p-it"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
@@ -598,9 +598,9 @@ export default function PageToc() {
                 href="#p-it-standby"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
@@ -614,9 +614,9 @@ export default function PageToc() {
                 href="#p-insiden"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
@@ -630,57 +630,25 @@ export default function PageToc() {
                 href="#p-insiden2"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
                   fontWeight: '600',
                 }}
               >
-                {'Insiden IT: BCP s.d. Review '}
+                {'Insiden IT: BCP & Review '}
                 <span style={{ opacity: '.6' }}>36</span>
-              </a>
-              <a
-                href="#p-bcp"
-                style={{
-                  display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
-                  borderRadius: '10px',
-                  background: '#E2F1EF',
-                  color: '#357870',
-                  fontWeight: '600',
-                }}
-              >
-                {'BCP BYOND #1 s.d. #7 '}
-                <span style={{ opacity: '.6' }}>37</span>
-              </a>
-              <a
-                href="#p-bcp2"
-                style={{
-                  display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
-                  borderRadius: '10px',
-                  background: '#E2F1EF',
-                  color: '#357870',
-                  fontWeight: '600',
-                }}
-              >
-                {'BCP BYOND #8 s.d. #13 '}
-                <span style={{ opacity: '.6' }}>38</span>
               </a>
               <a
                 href="#p-enabler"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
@@ -688,15 +656,15 @@ export default function PageToc() {
                 }}
               >
                 {'Kartu & Buku Tabungan '}
-                <span style={{ opacity: '.6' }}>39</span>
+                <span style={{ opacity: '.6' }}>37</span>
               </a>
               <a
                 href="#p-oase"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
@@ -704,7 +672,7 @@ export default function PageToc() {
                 }}
               >
                 {'Pelaporan OASE '}
-                <span style={{ opacity: '.6' }}>40</span>
+                <span style={{ opacity: '.6' }}>38</span>
               </a>
             </div>
           </div>
@@ -734,9 +702,9 @@ export default function PageToc() {
                 href="#p-cx"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -744,15 +712,15 @@ export default function PageToc() {
                 }}
               >
                 {'Bersama Jaga CX '}
-                <span style={{ opacity: '.6' }}>42</span>
+                <span style={{ opacity: '.6' }}>40</span>
               </a>
               <a
                 href="#p-dress"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -760,47 +728,47 @@ export default function PageToc() {
                 }}
               >
                 {'Dress Code '}
-                <span style={{ opacity: '.6' }}>43</span>
+                <span style={{ opacity: '.6' }}>41</span>
               </a>
               <a
                 href="#p-grooming"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
                   fontWeight: '600',
                 }}
               >
-                {'Grooming Pria: Rambut & Wajah '}
-                <span style={{ opacity: '.6' }}>44</span>
+                {'Grooming: Rambut & Wajah '}
+                <span style={{ opacity: '.6' }}>42</span>
               </a>
               <a
                 href="#p-grooming2"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
                   fontWeight: '600',
                 }}
               >
-                {'Grooming Pria: Kemeja & Belt '}
-                <span style={{ opacity: '.6' }}>45</span>
+                {'Grooming: Kemeja & Belt '}
+                <span style={{ opacity: '.6' }}>43</span>
               </a>
               <a
                 href="#p-grooming3"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -808,15 +776,15 @@ export default function PageToc() {
                 }}
               >
                 {'Aksesori & Kaos Kaki '}
-                <span style={{ opacity: '.6' }}>46</span>
+                <span style={{ opacity: '.6' }}>44</span>
               </a>
               <a
                 href="#p-grooming4"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -824,31 +792,31 @@ export default function PageToc() {
                 }}
               >
                 {'Sepatu & Hijab '}
-                <span style={{ opacity: '.6' }}>47</span>
+                <span style={{ opacity: '.6' }}>45</span>
               </a>
               <a
                 href="#p-grooming5"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
                   fontWeight: '600',
                 }}
               >
-                {'Grooming Wanita: Aksesori '}
-                <span style={{ opacity: '.6' }}>48</span>
+                {'Aksesori Wanita '}
+                <span style={{ opacity: '.6' }}>46</span>
               </a>
               <a
                 href="#p-emas"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -856,15 +824,15 @@ export default function PageToc() {
                 }}
               >
                 {'Standar Layanan E.M.A.S '}
-                <span style={{ opacity: '.6' }}>49</span>
+                <span style={{ opacity: '.6' }}>47</span>
               </a>
               <a
                 href="#p-gesture"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -872,15 +840,15 @@ export default function PageToc() {
                 }}
               >
                 {'Gesture & MSH '}
-                <span style={{ opacity: '.6' }}>50</span>
+                <span style={{ opacity: '.6' }}>48</span>
               </a>
               <a
                 href="#p-gesture2"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -888,15 +856,15 @@ export default function PageToc() {
                 }}
               >
                 {'Gesture #4 s.d. #7 '}
-                <span style={{ opacity: '.6' }}>51</span>
+                <span style={{ opacity: '.6' }}>49</span>
               </a>
               <a
                 href="#p-gesture3"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -904,15 +872,15 @@ export default function PageToc() {
                 }}
               >
                 {'Gesture #8 s.d. #10 '}
-                <span style={{ opacity: '.6' }}>52</span>
+                <span style={{ opacity: '.6' }}>50</span>
               </a>
               <a
                 href="#p-gesture4"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -920,31 +888,47 @@ export default function PageToc() {
                 }}
               >
                 {'Gesture #11 s.d. #13 '}
-                <span style={{ opacity: '.6' }}>53</span>
+                <span style={{ opacity: '.6' }}>51</span>
               </a>
               <a
                 href="#p-script"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
                   fontWeight: '600',
                 }}
               >
-                {'Script Greeting '}
-                <span style={{ opacity: '.6' }}>54</span>
+                {'Script Greeting & Poin '}
+                <span style={{ opacity: '.6' }}>52</span>
+              </a>
+              <a
+                href="#p-script2"
+                style={{
+                  display: 'inline-block',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
+                  borderRadius: '10px',
+                  background: '#FBE7E6',
+                  color: '#A42B28',
+                  fontWeight: '600',
+                }}
+              >
+                {'Script Lanjutan '}
+                <span style={{ opacity: '.6' }}>53</span>
               </a>
               <a
                 href="#p-dodont"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FBE7E6',
                   color: '#A42B28',
@@ -952,7 +936,7 @@ export default function PageToc() {
                 }}
               >
                 {"Do & Don't "}
-                <span style={{ opacity: '.6' }}>55</span>
+                <span style={{ opacity: '.6' }}>54</span>
               </a>
             </div>
           </div>
@@ -982,9 +966,9 @@ export default function PageToc() {
                 href="#p-gm-alur"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
@@ -992,15 +976,31 @@ export default function PageToc() {
                 }}
               >
                 {'Alur Gamification '}
+                <span style={{ opacity: '.6' }}>56</span>
+              </a>
+              <a
+                href="#p-gm-pov"
+                style={{
+                  display: 'inline-block',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
+                  borderRadius: '10px',
+                  background: '#E2F1EF',
+                  color: '#357870',
+                  fontWeight: '600',
+                }}
+              >
+                {'POV Nasabah '}
                 <span style={{ opacity: '.6' }}>57</span>
               </a>
               <a
                 href="#p-gm-poin"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
@@ -1014,9 +1014,9 @@ export default function PageToc() {
                 href="#p-gm-ketentuan"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#E2F1EF',
                   color: '#357870',
@@ -1054,9 +1054,9 @@ export default function PageToc() {
                 href="#p-evakuasi"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FDF1DC',
                   color: '#C9862A',
@@ -1070,9 +1070,9 @@ export default function PageToc() {
                 href="#p-exit"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FDF1DC',
                   color: '#C9862A',
@@ -1086,9 +1086,9 @@ export default function PageToc() {
                 href="#p-apar"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FDF1DC',
                   color: '#C9862A',
@@ -1102,9 +1102,9 @@ export default function PageToc() {
                 href="#p-damkar"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FDF1DC',
                   color: '#C9862A',
@@ -1118,9 +1118,9 @@ export default function PageToc() {
                 href="#p-fasilitas"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FDF1DC',
                   color: '#C9862A',
@@ -1134,9 +1134,9 @@ export default function PageToc() {
                 href="#p-keamanan"
                 style={{
                   display: 'inline-block',
-                  fontSize: '9px',
-                  padding: '1px 7px',
-                  margin: '1.5px 3px 0 0',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
                   borderRadius: '10px',
                   background: '#FDF1DC',
                   color: '#C9862A',
@@ -1145,6 +1145,54 @@ export default function PageToc() {
               >
                 {'Keamanan & BCM '}
                 <span style={{ opacity: '.6' }}>66</span>
+              </a>
+              <a
+                href="#p-bcp-info"
+                style={{
+                  display: 'inline-block',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
+                  borderRadius: '10px',
+                  background: '#FDF1DC',
+                  color: '#C9862A',
+                  fontWeight: '600',
+                }}
+              >
+                {'BCP BYOND '}
+                <span style={{ opacity: '.6' }}>67</span>
+              </a>
+              <a
+                href="#p-bcp"
+                style={{
+                  display: 'inline-block',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
+                  borderRadius: '10px',
+                  background: '#FDF1DC',
+                  color: '#C9862A',
+                  fontWeight: '600',
+                }}
+              >
+                {'BCP #1 s.d. #7 '}
+                <span style={{ opacity: '.6' }}>68</span>
+              </a>
+              <a
+                href="#p-bcp2"
+                style={{
+                  display: 'inline-block',
+                  fontSize: '8.8px',
+                  padding: '1px 6px',
+                  margin: '1.5px 2px 0 0',
+                  borderRadius: '10px',
+                  background: '#FDF1DC',
+                  color: '#C9862A',
+                  fontWeight: '600',
+                }}
+              >
+                {'BCP #8 s.d. #14 '}
+                <span style={{ opacity: '.6' }}>69</span>
               </a>
             </div>
           </div>

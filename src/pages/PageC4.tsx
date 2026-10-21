@@ -252,7 +252,7 @@ export default function PageC4() {
           }}
         >
           <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
-            {'Penempatan Sabtu & Minggu'}
+            Penempatan Sab-Min
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
             hal 28

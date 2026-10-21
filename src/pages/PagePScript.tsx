@@ -140,101 +140,14 @@ export default function PagePScript() {
               </div>
             </div>
           </div>
-          <div className="card" style={{ padding: '7px 10px 8px', borderTop: '4px solid #489D95' }}>
+          <div className="card" style={{ padding: '7px 10px 8px', borderTop: '4px solid #C9862A' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <span className="tag" style={{ background: '#489D95' }}>
-                Z2 · Z3 · Z4 · Mobile
+              <span className="tag" style={{ background: '#C9862A' }}>
+                {'Island & booth'}
               </span>
               <span className="b" style={{ fontSize: '11px' }}>
-                Greeting awal di zona lain
+                Menarik nasabah berkunjung ke booth
               </span>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: '3px' }}>
-              <div
-                style={{
-                  maxWidth: '88%',
-                  background: '#E2F1EF',
-                  border: '1px solid transparent',
-                  borderRadius: '10px',
-                  padding: '4px 8px',
-                  fontSize: '9.4px',
-                  lineHeight: '1.35',
-                }}
-              >
-                <b style={{ color: '#489D95', fontSize: '8.3px', display: 'block' }}>Petugas</b>Assalamu’alaikum Pak/Bu/Kak, saya [nama
-                petugas]. Dengan Ibu/Bapak siapa?
-              </div>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '3px' }}>
-              <div
-                style={{
-                  maxWidth: '88%',
-                  background: '#fff',
-                  border: '1px solid #e6e6e8',
-                  borderRadius: '10px',
-                  padding: '4px 8px',
-                  fontSize: '9.4px',
-                  lineHeight: '1.35',
-                }}
-              >
-                <b style={{ color: '#8a8b90', fontSize: '8.3px', display: 'block' }}>Nasabah</b>Ibu Mita.
-              </div>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: '3px' }}>
-              <div
-                style={{
-                  maxWidth: '88%',
-                  background: '#E2F1EF',
-                  border: '1px solid transparent',
-                  borderRadius: '10px',
-                  padding: '4px 8px',
-                  fontSize: '9.4px',
-                  lineHeight: '1.35',
-                }}
-              >
-                <b style={{ color: '#489D95', fontSize: '8.3px', display: 'block' }}>Petugas</b>Baik Bu Mita, ada yang bisa saya bantu?
-              </div>
-            </div>
-          </div>
-          <div className="card" style={{ padding: '7px 10px 8px', borderTop: '4px solid #53545A' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-              <span className="tag" style={{ background: '#53545A' }}>
-                Semua zona
-              </span>
-              <span className="b" style={{ fontSize: '11px' }}>
-                Greeting akhir
-              </span>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: '3px' }}>
-              <div
-                style={{
-                  maxWidth: '88%',
-                  background: '#E2F1EF',
-                  border: '1px solid transparent',
-                  borderRadius: '10px',
-                  padding: '4px 8px',
-                  fontSize: '9.4px',
-                  lineHeight: '1.35',
-                }}
-              >
-                <b style={{ color: '#489D95', fontSize: '8.3px', display: 'block' }}>Petugas</b>Alhamdulillah sudah selesai ya Pak/Bu/Kak.
-                Terima kasih telah berkunjung di BSI International Expo, semoga berkesan.
-              </div>
-            </div>
-            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '3px' }}>
-              <div
-                style={{
-                  maxWidth: '88%',
-                  background: '#fff',
-                  border: '1px solid #e6e6e8',
-                  borderRadius: '10px',
-                  padding: '4px 8px',
-                  fontSize: '9.4px',
-                  lineHeight: '1.35',
-                }}
-              >
-                <b style={{ color: '#8a8b90', fontSize: '8.3px', display: 'block' }}>Nasabah</b>Terima kasih, Mas/Mba.
-              </div>
             </div>
             <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: '3px' }}>
               <div
@@ -249,15 +162,29 @@ export default function PagePScript() {
                 }}
               >
                 <b style={{ color: '#489D95', fontSize: '8.3px', display: 'block' }}>Petugas</b>
-                <b>Senang melayani sepenuh hati.</b> <i>(gesture MSH)</i>
+                {'Mari Pak/Bu/Kak.. silakan, bisa dapat '}
+                <b>poin 10</b>
+                {' di '}
+                <b>Booth Griya</b>
+                {' ini.'}
               </div>
             </div>
+            <div style={{ fontSize: '8.8px', color: '#6b6c70', marginTop: '3px', fontStyle: 'italic' }}>
+              Sesuaikan dengan lokasi booth dan poin yang didapatkan nasabah.
+            </div>
+            <a href="#p-gm-poin" className="tap" style={{ color: '#C9862A', marginTop: '4px' }}>
+              {'Cek jumlah poin tiap island '}
+              <svg viewBox="0 0 24 24" fill="none" stroke="#C9862A" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
           </div>
         </div>
       </div>
       <div className="foot" style={{}}>
         <span className="pn" style={{}}>
-          54
+          52
         </span>
         <div className="prog">
           <a href="#c1" style={{ background: '#489D95', opacity: '0.25' }} />

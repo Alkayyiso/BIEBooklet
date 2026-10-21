@@ -577,7 +577,7 @@ export default function PagePEnabler() {
       </div>
       <div className="foot" style={{}}>
         <span className="pn" style={{}}>
-          39
+          37
         </span>
         <div className="prog">
           <a href="#c1" style={{ background: '#489D95', opacity: '0.25' }} />

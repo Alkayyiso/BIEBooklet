@@ -1,3 +1,5 @@
+import { ZoomImg } from '../components/ZoomImg';
+
 export default function PagePPavilion() {
   return (
     <section className="page" id="p-pavilion" style={{ background: '#FFFCF6' }}>
@@ -31,161 +33,134 @@ export default function PagePPavilion() {
           {'BSI '}
           <span style={{ color: '#C83835' }}>Pavilion</span>
         </h2>
-        <div className="lead">Zona Z4, jantung layanan BSI. Tujuh booth berjajar dari ESG sampai Pavilion inti layanan.</div>
-        <div style={{ display: 'flex', gap: '12px', marginTop: '10px' }}>
-          <div className="card" style={{ padding: '6px 0 4px', flex: 'none' }}>
-            <svg width="200" height="466.0" viewBox="0 0 200 466.0">
-              <rect x="20" y="4" width="160" height="22" rx="6" fill="#1FA855" />
-              <text x="100" y="19" textAnchor="middle" fontFamily="P" fontSize="9.5" fontWeight="700" fill="#fff">
-                GATE BSI PAVILION
-              </text>
-              <rect x="20" y="30" width="160" height="50.6" rx="6" fill="#7FB7AF" />
-              <text x="100" y="55.8" textAnchor="middle" fontFamily="P" fontSize="9.5" fontWeight="700" fill="#fff">
-                ESG
-              </text>
-              <text x="100" y="66.8" textAnchor="middle" fontFamily="P" fontSize="8.5" fill="#fff" opacity=".85">
-                4x6 m
-              </text>
-              <rect x="20" y="83.6" width="160" height="37.2" rx="6" fill="#489D95" />
-              <text x="100" y="102.69999999999999" textAnchor="middle" fontFamily="P" fontSize="9.5" fontWeight="700" fill="#fff">
-                BSI Maslahat
-              </text>
-              <text x="100" y="113.69999999999999" textAnchor="middle" fontFamily="P" fontSize="8.5" fill="#fff" opacity=".85">
-                3x6 m
-              </text>
-              <rect x="20" y="123.8" width="160" height="37.2" rx="6" fill="#3E8A82" />
-              <text x="100" y="142.9" textAnchor="middle" fontFamily="P" fontSize="9.5" fontWeight="700" fill="#fff">
-                BSI Hasanah Card
-              </text>
-              <text x="100" y="153.9" textAnchor="middle" fontFamily="P" fontSize="8.5" fill="#fff" opacity=".85">
-                3x6 m
-              </text>
-              <rect x="20" y="164.0" width="160" height="50.6" rx="6" fill="#EEA948" />
-              <text x="100" y="189.8" textAnchor="middle" fontFamily="P" fontSize="9.5" fontWeight="700" fill="#fff">
-                Money Changer
-              </text>
-              <text x="100" y="200.8" textAnchor="middle" fontFamily="P" fontSize="8.5" fill="#fff" opacity=".85">
-                4x6 m
-              </text>
-              <rect x="20" y="217.6" width="160" height="77.4" rx="6" fill="#C83835" />
-              <text x="100" y="256.8" textAnchor="middle" fontFamily="P" fontSize="8.6" fontWeight="700" fill="#fff">
-                Sales Regional Office Booth
-              </text>
-              <text x="100" y="267.8" textAnchor="middle" fontFamily="P" fontSize="8.5" fill="#fff" opacity=".85">
-                6x6 m
-              </text>
-              <rect x="20" y="298.0" width="160" height="50.6" rx="6" fill="#53545A" />
-              <text x="100" y="323.8" textAnchor="middle" fontFamily="P" fontSize="8.6" fontWeight="700" fill="#fff">
-                BSI Consultancy Corner
-              </text>
-              <text x="100" y="334.8" textAnchor="middle" fontFamily="P" fontSize="8.5" fill="#fff" opacity=".85">
-                4x6 m
-              </text>
-              <rect x="20" y="351.6" width="160" height="77.4" rx="6" fill="#A42B28" />
-              <text x="100" y="390.8" textAnchor="middle" fontFamily="P" fontSize="8.6" fontWeight="700" fill="#fff">
-                BSI Pavilion (inti layanan)
-              </text>
-              <text x="100" y="401.8" textAnchor="middle" fontFamily="P" fontSize="8.5" fill="#fff" opacity=".85">
-                6x6 m
-              </text>
-              <rect x="20" y="434.0" width="160" height="22" rx="6" fill="#1FA855" />
-              <text x="100" y="449.0" textAnchor="middle" fontFamily="P" fontSize="9.5" fontWeight="700" fill="#fff">
-                GATE BSI PAVILION
-              </text>
-            </svg>
-            <div className="xs muted" style={{ textAlign: 'center' }}>
-              Panjang area ±29,9 m
-            </div>
+        <div className="lead">Zona 4, jantung layanan BSI di sisi Hall A. Masuk lewat Gate BSI Pavilion (no. 14).</div>
+        <div style={{ borderRadius: '14px', overflow: 'hidden', marginTop: '8px', position: 'relative' }}>
+          <ZoomImg src="assets/img/pav1.jpg" alt="" style={{ width: '100%', height: '178px', objectFit: 'cover', display: 'block' }} />
+        </div>
+        <div style={{ borderRadius: '14px', overflow: 'hidden', marginTop: '6px' }}>
+          <ZoomImg
+            src="assets/img/pav2.jpg"
+            alt=""
+            style={{ width: '100%', height: '132px', objectFit: 'cover', objectPosition: '50% 60%', display: 'block' }}
+          />
+        </div>
+        <div className="card" style={{ padding: '9px 10px', marginTop: '8px' }}>
+          <div style={{ display: 'flex', alignItems: 'center', marginBottom: '6px' }}>
+            <span className="b" style={{ fontSize: '11.5px', flex: '1' }}>
+              Susunan booth Zona 4
+            </span>
+            <span className="xs muted">dari kiri ke kanan</span>
           </div>
-          <div style={{ flex: '1' }}>
-            <div className="kick" style={{ color: '#C83835', marginBottom: '6px' }}>
-              Petugas Z4 per hari
-            </div>
-            <div className="row" style={{ marginBottom: '10px' }}>
-              <div className="card" style={{ flex: '1', padding: '7px', textAlign: 'center' }}>
-                <div className="xs muted">Jumat</div>
-                <div className="big" style={{ fontSize: '22px', color: '#C83835' }}>
-                  29
-                </div>
-              </div>
-              <div className="card" style={{ flex: '1', padding: '7px', textAlign: 'center' }}>
-                <div className="xs muted">{'Sab & Min'}</div>
-                <div className="big" style={{ fontSize: '22px', color: '#C83835' }}>
-                  64
-                </div>
-              </div>
-            </div>
-            <div style={{ borderLeft: '4px solid #A42B28', padding: '2px 0 2px 8px', marginBottom: '7px' }}>
-              <div className="b" style={{ fontSize: '11px' }}>
-                Inti layanan
-              </div>
-              <div className="xs muted" style={{ lineHeight: '1.35' }}>
-                CS, BOSM/CSS, TBR, dan Security. Jumat 17, Sabtu dan Minggu 40 orang.
-              </div>
-            </div>
-            <div style={{ borderLeft: '4px solid #53545A', padding: '2px 0 2px 8px', marginBottom: '7px' }}>
-              <div className="b" style={{ fontSize: '11px' }}>
-                Consultancy Corner
-              </div>
-              <div className="xs muted" style={{ lineHeight: '1.35' }}>
-                BM/AM. Jumat 6, Sabtu dan Minggu 12 orang.
-              </div>
-            </div>
-            <div style={{ borderLeft: '4px solid #C83835', padding: '2px 0 2px 8px', marginBottom: '7px' }}>
-              <div className="b" style={{ fontSize: '11px' }}>
-                Sales Booth
-              </div>
-              <div className="xs muted" style={{ lineHeight: '1.35' }}>
-                {'Sales Financing & Funding. Jumat 6, Sabtu dan Minggu 12 orang.'}
-              </div>
-            </div>
-            <div
-              className="card"
-              style={{
-                background: '#EEA94822',
-                boxShadow: 'none',
-                padding: '9px 10px',
-                marginTop: '4px',
-                fontSize: '10px',
-                lineHeight: '1.45',
-              }}
-            >
-              <span className="ic" style={{ width: '22px', height: '22px', background: '#EEA948' }}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
-                  <circle cx="12" cy="10" r="3" />
-                </svg>
-              </span>
-              {' Pavilion berada di sisi Hall A, diapit dua gate. Masuk dari '}
-              <b>Gate BSI Pavilion (no. 14)</b>.
-            </div>
-            <a
-              href="#p-apar"
-              className="card"
-              style={{ display: 'flex', gap: '8px', alignItems: 'center', padding: '8px 10px', marginTop: '8px' }}
-            >
-              <span className="ic" style={{ width: '24px', height: '24px', background: '#3E63B8' }}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
-                </svg>
-              </span>
-              <div style={{ fontSize: '10px', lineHeight: '1.35' }}>
-                {'Tersedia '}
-                <b>1 dispenser</b>
-                {' (dekat Consultancy Corner) dan '}
-                <b>2 tempat sampah</b>
-                {' (dekat Money Changer) di area Pavilion.'}
-              </div>
-            </a>{' '}
-            <a href="#p-jumat" className="tap" style={{ color: '#C83835', marginTop: '8px' }}>
-              {'Detail penempatan '}
-              <svg viewBox="0 0 24 24" fill="none" stroke="#C83835" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="5" y1="12" x2="19" y2="12" />
-                <polyline points="12 5 19 12 12 19" />
+          <div style={{ position: 'relative', borderRadius: '8px', overflow: 'hidden', border: '1px solid #e3e3e6' }}>
+            <ZoomImg src="assets/img/pavplan.jpg" alt="" style={{ width: '100%', display: 'block' }} />{' '}
+            <span className="tag" style={{ position: 'absolute', right: '6px', bottom: '6px', background: 'rgba(38,39,43,.8)' }}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="11" cy="11" r="8" />
+                <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                <line x1="11" y1="8" x2="11" y2="14" />
+                <line x1="8" y1="11" x2="14" y2="11" />
               </svg>
-            </a>
+              {' Zoom'}
+            </span>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4px 10px', marginTop: '7px' }}>
+            <div style={{ display: 'flex', gap: '6px', alignItems: 'center', fontSize: '9.8px', lineHeight: '1.3' }}>
+              <span style={{ width: '14px', height: '14px', borderRadius: '4px', background: '#4A7FC1', flex: 'none' }} />
+              {'ESG & BSI Maslahat'}
+            </div>
+            <div style={{ display: 'flex', gap: '6px', alignItems: 'center', fontSize: '9.8px', lineHeight: '1.3' }}>
+              <span style={{ width: '14px', height: '14px', borderRadius: '4px', background: '#C47BC0', flex: 'none' }} />
+              Hasanah Card
+            </div>
+            <div style={{ display: 'flex', gap: '6px', alignItems: 'center', fontSize: '9.8px', lineHeight: '1.3' }}>
+              <span style={{ width: '14px', height: '14px', borderRadius: '4px', background: '#D4A72C', flex: 'none' }} />
+              {'Region 1, 2, 3 & BSI Agen'}
+            </div>
+            <div style={{ display: 'flex', gap: '6px', alignItems: 'center', fontSize: '9.8px', lineHeight: '1.3' }}>
+              <span style={{ width: '14px', height: '14px', borderRadius: '4px', background: '#3F8A55', flex: 'none' }} />
+              Consultation Corner Mitraguna
+            </div>
           </div>
         </div>
+        <div className="row" style={{ marginTop: '7px' }}>
+          <div
+            className="card"
+            style={{
+              flex: '1',
+              display: 'flex',
+              gap: '8px',
+              alignItems: 'center',
+              padding: '8px 10px',
+              background: '#EEA94822',
+              boxShadow: 'none',
+            }}
+          >
+            <span className="ic" style={{ width: '26px', height: '26px', background: '#C9862A' }}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                <polyline points="23 4 23 10 17 10" />
+                <path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10" />
+              </svg>
+            </span>
+            <div style={{ fontSize: '9.6px', lineHeight: '1.3' }}>
+              <b>Money Changer</b>
+              {' berada di '}
+              <b>BSI Mobility (Triton)</b>.
+            </div>
+          </div>
+          <div className="card" style={{ flex: '1', display: 'flex', gap: '8px', alignItems: 'center', padding: '8px 10px' }}>
+            <span className="ic" style={{ width: '26px', height: '26px', background: '#3E63B8' }}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+              </svg>
+            </span>
+            <div style={{ fontSize: '9.6px', lineHeight: '1.3' }}>
+              <b>1 dispenser</b>
+              {' di area Pavilion.'}
+            </div>
+          </div>
+        </div>
+        <a
+          href="#p-jumat"
+          className="card"
+          style={{
+            display: 'flex',
+            gap: '10px',
+            alignItems: 'center',
+            marginTop: '7px',
+            background: '#C83835',
+            color: '#fff',
+            padding: '8px 12px',
+          }}
+        >
+          <span className="ic" style={{ width: '26px', height: '26px', background: 'rgba(255,255,255,.25)' }}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </span>
+          <div style={{ flex: '1', fontSize: '10px', lineHeight: '1.35' }}>
+            <b>Petugas Z4:</b>
+            {' Jumat '}
+            <b>29</b>
+            {', Sabtu & Minggu '}
+            <b>64</b>
+            {' orang (inti layanan, Consultancy Corner, Sales Booth).'}
+          </div>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
       </div>
       <div className="foot" style={{}}>
         <span className="pn" style={{}}>

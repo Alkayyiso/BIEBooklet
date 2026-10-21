@@ -214,7 +214,7 @@ export default function PagePJadwal() {
             </text>
             <line x1="196.0" y1="118" x2="196.0" y2="128" stroke="#26272B" strokeWidth="2" />
             <text x="52.0" y="135" fontSize="8" fontWeight="700" fill="#26272B">
-              S2 clear area 15.00
+              S2: Hall B clear 15.00
             </text>
           </svg>
         </div>
@@ -242,7 +242,11 @@ export default function PagePJadwal() {
             </span>
             <span>
               <b>Minggu Sesi 2:</b>
-              {' clear area pukul 15.00 WIB.'}
+              {' clear area '}
+              <b>Hall B</b>
+              {' mulai pukul 15.00 WIB. Area '}
+              <b>Hall A tetap dibuka</b>
+              {' untuk umum.'}
             </span>
           </div>
           <div style={{ display: 'flex', gap: '8px', alignItems: 'center', fontSize: '10.2px' }}>

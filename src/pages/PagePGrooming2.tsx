@@ -484,7 +484,7 @@ export default function PagePGrooming2() {
       </div>
       <div className="foot" style={{}}>
         <span className="pn" style={{}}>
-          45
+          43
         </span>
         <div className="prog">
           <a href="#c1" style={{ background: '#489D95', opacity: '0.25' }} />

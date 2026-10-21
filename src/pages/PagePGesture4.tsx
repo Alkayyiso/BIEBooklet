@@ -35,8 +35,69 @@ export default function PagePGesture4() {
           {'Gesture Petugas '}
           <span style={{ color: '#489D95' }}>#11 s.d. #13</span>
         </h2>
-        <div className="lead">Melayani di meja, menyambut customer, dan menjaga privasi PIN.</div>
+        <div className="lead">Memberi bolpen, melayani di meja, dan menyambut customer.</div>
         <div className="col" style={{ gap: '6px', marginTop: '8px' }}>
+          <div className="card" style={{ display: 'flex', gap: '9px', padding: '6px', alignItems: 'center' }}>
+            <div style={{ width: '112px', height: '128px', flex: 'none', borderRadius: '9px', overflow: 'hidden', background: '#f3f3f4' }}>
+              <ZoomImg
+                src="assets/img/gs10.jpg"
+                alt=""
+                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 0%' }}
+              />
+            </div>
+            <div style={{ flex: '1', minWidth: '0' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
+                <span
+                  className="num"
+                  style={{
+                    background: '#C83835',
+                    color: '#fff',
+                    fontWeight: '900',
+                    fontSize: '9px',
+                    borderRadius: '6px',
+                    padding: '1px 5px',
+                  }}
+                >
+                  #11
+                </span>
+                <span className="b" style={{ fontSize: '11px', lineHeight: '1.15' }}>
+                  Menyerahkan bolpen
+                </span>
+              </div>
+              <div style={{ display: 'flex', gap: '5px', fontSize: '9.4px', lineHeight: '1.33', marginTop: '2px' }}>
+                <span style={{ flex: 'none', marginTop: '2px' }}>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#489D95"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    style={{ width: '10px', height: '10px' }}
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </span>
+                <span>Dengan tangan kanan</span>
+              </div>
+              <div style={{ display: 'flex', gap: '5px', fontSize: '9.4px', lineHeight: '1.33', marginTop: '2px' }}>
+                <span style={{ flex: 'none', marginTop: '2px' }}>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="#489D95"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    style={{ width: '10px', height: '10px' }}
+                  >
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </span>
+                <span>Ujung bolpen mengarah ke bawah</span>
+              </div>
+            </div>
+          </div>
           <div className="card" style={{ display: 'flex', gap: '9px', padding: '6px', alignItems: 'center' }}>
             <div style={{ width: '112px', height: '128px', flex: 'none', borderRadius: '9px', overflow: 'hidden', background: '#f3f3f4' }}>
               <ZoomImg
@@ -58,7 +119,7 @@ export default function PagePGesture4() {
                     padding: '1px 5px',
                   }}
                 >
-                  #11
+                  #12
                 </span>
                 <span className="b" style={{ fontSize: '11px', lineHeight: '1.15' }}>
                   Berinteraksi sambil duduk
@@ -124,7 +185,7 @@ export default function PagePGesture4() {
                     padding: '1px 5px',
                   }}
                 >
-                  #12
+                  #13
                 </span>
                 <span className="b" style={{ fontSize: '11px', lineHeight: '1.15' }}>
                   Menyambut customer
@@ -164,72 +225,11 @@ export default function PagePGesture4() {
               </div>
             </div>
           </div>
-          <div className="card" style={{ display: 'flex', gap: '9px', padding: '6px', alignItems: 'center' }}>
-            <div style={{ width: '112px', height: '128px', flex: 'none', borderRadius: '9px', overflow: 'hidden', background: '#f3f3f4' }}>
-              <ZoomImg
-                src="assets/img/gs13.jpg"
-                alt=""
-                style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: '50% 0%' }}
-              />
-            </div>
-            <div style={{ flex: '1', minWidth: '0' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '5px' }}>
-                <span
-                  className="num"
-                  style={{
-                    background: '#C83835',
-                    color: '#fff',
-                    fontWeight: '900',
-                    fontSize: '9px',
-                    borderRadius: '6px',
-                    padding: '1px 5px',
-                  }}
-                >
-                  #13
-                </span>
-                <span className="b" style={{ fontSize: '11px', lineHeight: '1.15' }}>
-                  Saat customer menekan PIN
-                </span>
-              </div>
-              <div style={{ display: 'flex', gap: '5px', fontSize: '9.4px', lineHeight: '1.33', marginTop: '2px' }}>
-                <span style={{ flex: 'none', marginTop: '2px' }}>
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#489D95"
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    style={{ width: '10px', height: '10px' }}
-                  >
-                    <polyline points="20 6 9 17 4 12" />
-                  </svg>
-                </span>
-                <span>Pinpad, EDC, BYOND, atau ATM/CRM</span>
-              </div>
-              <div style={{ display: 'flex', gap: '5px', fontSize: '9.4px', lineHeight: '1.33', marginTop: '2px' }}>
-                <span style={{ flex: 'none', marginTop: '2px' }}>
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#489D95"
-                    strokeWidth="3"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    style={{ width: '10px', height: '10px' }}
-                  >
-                    <polyline points="20 6 9 17 4 12" />
-                  </svg>
-                </span>
-                <span>Palingkan wajah dari tangan customer</span>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <div className="foot" style={{}}>
         <span className="pn" style={{}}>
-          53
+          51
         </span>
         <div className="prog">
           <a href="#c1" style={{ background: '#489D95', opacity: '0.25' }} />

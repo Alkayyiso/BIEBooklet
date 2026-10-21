@@ -235,7 +235,7 @@ export default function PageBack() {
       />
       <div className="foot" style={{ color: '#fff' }}>
         <span className="pn" style={{ color: '#fff' }}>
-          67
+          70
         </span>
         <div className="prog">
           <a href="#c1" style={{ background: '#fff', opacity: '0.35' }} />

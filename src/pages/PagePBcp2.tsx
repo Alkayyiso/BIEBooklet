@@ -7,12 +7,11 @@ export default function PagePBcp2() {
           <b style={{}}>BSI International Expo 2026</b>Booklet Petugas
         </div>
         <div className="sp" />
-        <a className="chip" href="#c5" style={{ background: '#489D95' }}>
+        <a className="chip" href="#c7" style={{ background: '#EEA948' }}>
           <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
-            <circle cx="12" cy="12" r="3" />
-            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
           </svg>
-          Bab 05
+          Bab 08
         </a>
         <a className="navbtn" href="#toc" style={{}}>
           <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
@@ -24,14 +23,14 @@ export default function PagePBcp2() {
         </a>
       </div>
       <div className="content">
-        <div className="kick" style={{ color: '#489D95' }}>
+        <div className="kick" style={{ color: '#EEA948' }}>
           BCP BYOND
         </div>
         <h2 className="t">
           {'BCP BYOND '}
-          <span style={{ color: '#489D95' }}>#8 s.d. #13</span>
+          <span style={{ color: '#489D95' }}>#8 s.d. #14</span>
         </h2>
-        <div className="lead">Transfer, kartu, pembiayaan, dan emas.</div>
+        <div className="lead">Transfer, emas, kartu, dan pembiayaan.</div>
         <div className="col" style={{ gap: '5px', marginTop: '8px' }}>
           <div className="card" style={{ display: 'flex', gap: '9px', padding: '8px 10px', alignItems: 'flex-start' }}>
             <span
@@ -110,6 +109,52 @@ export default function PagePBcp2() {
             <div style={{ flex: '1', minWidth: '0', lineHeight: '1.25' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                 <span className="b" style={{ fontSize: '11.6px', flex: '1' }}>
+                  Tabungan E-mas
+                </span>
+                <span style={{ fontSize: '8.2px', color: '#6b6c70', background: '#f1f1f2', borderRadius: '6px', padding: '1px 6px' }}>
+                  DBR, BBG
+                </span>
+              </div>
+              <div style={{ fontSize: '9.4px', color: '#6b6c70', marginTop: '1px' }}>
+                Tidak bisa registrasi, beli/jual saldo, ajukan cetak fisik, atau tutup Tabungan E-mas
+              </div>
+              <div>
+                <span
+                  style={{
+                    display: 'inline-block',
+                    background: '#489D95',
+                    color: '#fff',
+                    fontSize: '9.2px',
+                    fontWeight: '700',
+                    borderRadius: '8px',
+                    padding: '1px 8px',
+                    margin: '3px 3px 0 0',
+                  }}
+                >
+                  BGold
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className="card" style={{ display: 'flex', gap: '9px', padding: '8px 10px', alignItems: 'flex-start' }}>
+            <span
+              className="ic"
+              style={{
+                width: '26px',
+                height: '26px',
+                background: '#1F4E79',
+                color: '#fff',
+                fontWeight: '900',
+                fontSize: '10px',
+                borderRadius: '8px',
+                marginTop: '1px',
+              }}
+            >
+              10
+            </span>
+            <div style={{ flex: '1', minWidth: '0', lineHeight: '1.25' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                <span className="b" style={{ fontSize: '11.6px', flex: '1' }}>
                   Payment Hasanah Card
                 </span>
                 <span style={{ fontSize: '8.2px', color: '#6b6c70', background: '#f1f1f2', borderRadius: '6px', padding: '1px 6px' }}>
@@ -177,7 +222,7 @@ export default function PagePBcp2() {
                 marginTop: '1px',
               }}
             >
-              10
+              11
             </span>
             <div style={{ flex: '1', minWidth: '0', lineHeight: '1.25' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
@@ -237,7 +282,7 @@ export default function PagePBcp2() {
                 marginTop: '1px',
               }}
             >
-              11
+              12
             </span>
             <div style={{ flex: '1', minWidth: '0', lineHeight: '1.25' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
@@ -281,7 +326,7 @@ export default function PagePBcp2() {
                 marginTop: '1px',
               }}
             >
-              12
+              13
             </span>
             <div style={{ flex: '1', minWidth: '0', lineHeight: '1.25' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
@@ -339,7 +384,7 @@ export default function PagePBcp2() {
                 marginTop: '1px',
               }}
             >
-              13
+              14
             </span>
             <div style={{ flex: '1', minWidth: '0', lineHeight: '1.25' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
@@ -379,17 +424,17 @@ export default function PagePBcp2() {
       </div>
       <div className="foot" style={{}}>
         <span className="pn" style={{}}>
-          38
+          69
         </span>
         <div className="prog">
           <a href="#c1" style={{ background: '#489D95', opacity: '0.25' }} />
           <a href="#c2" style={{ background: '#C83835', opacity: '0.25' }} />
           <a href="#c3" style={{ background: '#EEA948', opacity: '0.25' }} />
           <a href="#c4" style={{ background: '#53545A', opacity: '0.25' }} />
-          <a href="#c5" style={{ background: '#489D95', opacity: '1' }} />
+          <a href="#c5" style={{ background: '#489D95', opacity: '0.25' }} />
           <a href="#c6" style={{ background: '#C83835', opacity: '0.25' }} />
           <a href="#cg" style={{ background: '#489D95', opacity: '0.25' }} />
-          <a href="#c7" style={{ background: '#EEA948', opacity: '0.25' }} />
+          <a href="#c7" style={{ background: '#EEA948', opacity: '1' }} />
         </div>
         <span
           style={{ display: 'inline-flex', alignItems: 'center', gap: '3px', fontWeight: '700', letterSpacing: '.2px', color: '#C83835' }}

@@ -5,10 +5,10 @@ export default function PageCover() {
         <div
           style={{
             position: 'absolute',
-            right: '-70px',
-            top: '-70px',
-            width: '230px',
-            height: '230px',
+            right: '-110px',
+            top: '96px',
+            width: '210px',
+            height: '210px',
             borderRadius: '50%',
             background: '#489D95',
           }}
@@ -16,10 +16,10 @@ export default function PageCover() {
         <div
           style={{
             position: 'absolute',
-            right: '160px',
-            top: '24px',
-            width: '40px',
-            height: '40px',
+            left: '26px',
+            top: '372px',
+            width: '34px',
+            height: '34px',
             borderRadius: '50%',
             background: '#EEA948',
           }}
@@ -51,7 +51,8 @@ export default function PageCover() {
           }}
         />
       </div>
-      <img src="assets/img/bsi.png" alt="" style={{ position: 'absolute', left: '24px', top: '26px', height: '40px' }} />{' '}
+      <img src="assets/img/danantara.png" alt="" style={{ position: 'absolute', left: '24px', top: '24px', height: '36px' }} />
+      <img src="assets/img/bsi_cover.png" alt="" style={{ position: 'absolute', right: '24px', top: '24px', height: '36px' }} />{' '}
       <img src="assets/img/blgg.png" alt="" style={{ position: 'absolute', left: '65px', top: '84px', width: '300px' }} />
       <div style={{ position: 'absolute', left: '24px', right: '24px', top: '470px' }}>
         <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap', justifyContent: 'center' }}>

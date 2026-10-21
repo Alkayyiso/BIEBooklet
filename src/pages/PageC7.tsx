@@ -83,7 +83,7 @@ export default function PageC7() {
           Keselamatan
         </div>
         <div style={{ fontSize: '12px', opacity: '.9', marginBottom: '16px', maxWidth: '320px' }}>
-          Jalur evakuasi, emergency exit, titik kumpul, APAR, dan fasilitas darurat
+          Jalur evakuasi, emergency exit, APAR, fasilitas darurat, dan BCP BYOND
         </div>
         <a
           href="#p-evakuasi"
@@ -257,6 +257,99 @@ export default function PageC7() {
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
             hal 66
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a
+          href="#p-bcp-info"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(255,255,255,.14)',
+            borderRadius: '12px',
+            padding: '6px 12px',
+            marginBottom: '4px',
+          }}
+        >
+          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
+            BCP BYOND
+          </span>
+          <span className="xs" style={{ opacity: '.75' }}>
+            hal 67
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a
+          href="#p-bcp"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(255,255,255,.14)',
+            borderRadius: '12px',
+            padding: '6px 12px',
+            marginBottom: '4px',
+          }}
+        >
+          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
+            BCP #1 s.d. #7
+          </span>
+          <span className="xs" style={{ opacity: '.75' }}>
+            hal 68
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a
+          href="#p-bcp2"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(255,255,255,.14)',
+            borderRadius: '12px',
+            padding: '6px 12px',
+            marginBottom: '4px',
+          }}
+        >
+          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
+            BCP #8 s.d. #14
+          </span>
+          <span className="xs" style={{ opacity: '.75' }}>
+            hal 69
           </span>
           <svg
             viewBox="0 0 24 24"

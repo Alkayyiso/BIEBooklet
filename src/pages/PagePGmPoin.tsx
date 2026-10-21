@@ -48,7 +48,7 @@ export default function PagePGmPoin() {
               </span>{' '}
               <span style={{ fontSize: '9px', color: '#6b6c70' }}>
                 <b className="num" style={{ fontSize: '12.5px', color: '#489D95' }}>
-                  10
+                  5
                 </b>
                 {' poin'}
               </span>
@@ -60,7 +60,7 @@ export default function PagePGmPoin() {
               <span
                 className="num"
                 style={{
-                  background: '#489D95',
+                  background: '#C9862A',
                   color: '#fff',
                   fontWeight: '900',
                   fontSize: '10px',
@@ -68,7 +68,7 @@ export default function PagePGmPoin() {
                   padding: '1px 8px',
                 }}
               >
-                10
+                5
               </span>
             </div>
           </div>
@@ -362,7 +362,7 @@ export default function PagePGmPoin() {
               <span style={{ fontSize: '9px', color: '#6b6c70' }}>
                 {'hingga '}
                 <b className="num" style={{ fontSize: '12.5px', color: '#53545A' }}>
-                  25
+                  30
                 </b>
                 {' poin'}
               </span>
@@ -420,7 +420,7 @@ export default function PagePGmPoin() {
               <span
                 className="num"
                 style={{
-                  background: '#C9862A',
+                  background: '#489D95',
                   color: '#fff',
                   fontWeight: '900',
                   fontSize: '10px',
@@ -428,7 +428,7 @@ export default function PagePGmPoin() {
                   padding: '1px 8px',
                 }}
               >
-                5
+                10
               </span>
             </div>
             <div style={{ display: 'flex', gap: '6px', alignItems: 'center', padding: '2.5px 0', borderTop: '1px solid #f1f1f2' }}>

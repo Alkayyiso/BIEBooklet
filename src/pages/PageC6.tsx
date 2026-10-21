@@ -104,7 +104,7 @@ export default function PageC6() {
             Bersama Jaga CX
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 42
+            hal 40
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -135,7 +135,7 @@ export default function PageC6() {
             Dress Code
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 43
+            hal 41
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -163,10 +163,10 @@ export default function PageC6() {
           }}
         >
           <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
-            {'Grooming Pria: Rambut & Wajah'}
+            {'Grooming: Rambut & Wajah'}
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 44
+            hal 42
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -194,10 +194,10 @@ export default function PageC6() {
           }}
         >
           <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
-            {'Grooming Pria: Kemeja & Belt'}
+            {'Grooming: Kemeja & Belt'}
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 45
+            hal 43
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -228,7 +228,7 @@ export default function PageC6() {
             {'Aksesori & Kaos Kaki'}
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 46
+            hal 44
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -259,7 +259,7 @@ export default function PageC6() {
             {'Sepatu & Hijab'}
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 47
+            hal 45
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -287,10 +287,10 @@ export default function PageC6() {
           }}
         >
           <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
-            Grooming Wanita: Aksesori
+            Aksesori Wanita
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 48
+            hal 46
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -321,7 +321,7 @@ export default function PageC6() {
             Standar Layanan E.M.A.S
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 49
+            hal 47
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -352,7 +352,7 @@ export default function PageC6() {
             {'Gesture & MSH'}
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 50
+            hal 48
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -383,7 +383,7 @@ export default function PageC6() {
             Gesture #4 s.d. #7
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 51
+            hal 49
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -414,7 +414,7 @@ export default function PageC6() {
             Gesture #8 s.d. #10
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 52
+            hal 50
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -445,7 +445,7 @@ export default function PageC6() {
             Gesture #11 s.d. #13
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 53
+            hal 51
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -473,10 +473,41 @@ export default function PageC6() {
           }}
         >
           <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
-            Script Greeting
+            {'Script Greeting & Poin'}
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 54
+            hal 52
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a
+          href="#p-script2"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(255,255,255,.14)',
+            borderRadius: '12px',
+            padding: '6px 12px',
+            marginBottom: '4px',
+          }}
+        >
+          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
+            Script Lanjutan
+          </span>
+          <span className="xs" style={{ opacity: '.75' }}>
+            hal 53
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -507,7 +538,7 @@ export default function PageC6() {
             {"Do & Don't"}
           </span>
           <span className="xs" style={{ opacity: '.75' }}>
-            hal 55
+            hal 54
           </span>
           <svg
             viewBox="0 0 24 24"
@@ -525,7 +556,7 @@ export default function PageC6() {
       </div>
       <div className="foot" style={{ color: '#fff' }}>
         <span className="pn" style={{ color: '#fff' }}>
-          41
+          39
         </span>
         <div className="prog">
           <a href="#c1" style={{ background: '#fff', opacity: '0.35' }} />
