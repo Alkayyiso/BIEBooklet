@@ -1,0 +1,219 @@
+export default function PagePScript() {
+  return (
+    <section className="page" id="p-script" style={{ background: '#FFFCF6' }}>
+      <div className="top">
+        <img src="assets/img/blgg.png" alt="" />
+        <div className="ev" style={{}}>
+          <b style={{}}>BSI International Expo 2026</b>Booklet Petugas
+        </div>
+        <div className="sp" />
+        <a className="chip" href="#c6" style={{ background: '#C83835' }}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="10" />
+            <path d="M8 14s1.5 2 4 2 4-2 4-2" />
+            <line x1="9" y1="9" x2="9.01" y2="9" />
+            <line x1="15" y1="9" x2="15.01" y2="9" />
+          </svg>
+          Bab 06
+        </a>
+        <a className="navbtn" href="#toc" style={{}}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+          Isi
+        </a>
+      </div>
+      <div className="content">
+        <div className="kick" style={{ color: '#C83835' }}>
+          Process
+        </div>
+        <h2 className="t">
+          {'Script '}
+          <span style={{ color: '#C83835' }}>Greeting</span>
+        </h2>
+        <div className="lead">Wajib dipakai saat berinteraksi dengan nasabah. Bicara dengan tempo 2 sampai 3 kata per detik.</div>
+        <div className="col" style={{ gap: '6px', marginTop: '8px' }}>
+          <div className="card" style={{ padding: '7px 10px 8px', borderTop: '4px solid #C83835' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <span className="tag" style={{ background: '#C83835' }}>
+                Z1 · Usher
+              </span>
+              <span className="b" style={{ fontSize: '11px' }}>
+                Sebelum scan QR registrasi
+              </span>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: '3px' }}>
+              <div
+                style={{
+                  maxWidth: '88%',
+                  background: '#E2F1EF',
+                  border: '1px solid transparent',
+                  borderRadius: '10px',
+                  padding: '4px 8px',
+                  fontSize: '9.4px',
+                  lineHeight: '1.35',
+                }}
+              >
+                <b style={{ color: '#489D95', fontSize: '8.3px', display: 'block' }}>Petugas</b>
+                {'Assalamu’alaikum Bapak/Ibu/Kak, sudah ada QR-nya? '}
+                <i>(gesture MSH)</i>
+              </div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '3px' }}>
+              <div
+                style={{
+                  maxWidth: '88%',
+                  background: '#fff',
+                  border: '1px solid #e6e6e8',
+                  borderRadius: '10px',
+                  padding: '4px 8px',
+                  fontSize: '9.4px',
+                  lineHeight: '1.35',
+                }}
+              >
+                <b style={{ color: '#8a8b90', fontSize: '8.3px', display: 'block' }}>Sudah</b>→ Baik, silakan langsung masuk. Tunjukkan
+                QR-nya untuk discan petugas ya.
+              </div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '3px' }}>
+              <div
+                style={{
+                  maxWidth: '88%',
+                  background: '#fff',
+                  border: '1px solid #e6e6e8',
+                  borderRadius: '10px',
+                  padding: '4px 8px',
+                  fontSize: '9.4px',
+                  lineHeight: '1.35',
+                }}
+              >
+                <b style={{ color: '#8a8b90', fontSize: '8.3px', display: 'block' }}>Belum</b>
+                {'→ Baik, register dulu ya, gampang kok. Silakan scan QR registrasi ini. '}
+                <i>(tunjuk dengan telapak terbuka)</i>
+              </div>
+            </div>
+          </div>
+          <div className="card" style={{ padding: '7px 10px 8px', borderTop: '4px solid #EEA948' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <span className="tag" style={{ background: '#EEA948' }}>
+                Z1 · Usher
+              </span>
+              <span className="b" style={{ fontSize: '11px' }}>
+                Setelah scan QR
+              </span>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: '3px' }}>
+              <div
+                style={{
+                  maxWidth: '88%',
+                  background: '#E2F1EF',
+                  border: '1px solid transparent',
+                  borderRadius: '10px',
+                  padding: '4px 8px',
+                  fontSize: '9.4px',
+                  lineHeight: '1.35',
+                }}
+              >
+                <b style={{ color: '#489D95', fontSize: '8.3px', display: 'block' }}>Petugas</b>
+                {'Alhamdulillah sudah berhasil. Dapatkan hadiah langsung ini ya, caranya di sini '}
+                <i>(serahkan flyer gamification)</i>. Pastikan sudah pakai BYOND dan BSI Hasanah Card untuk promo cashback.
+              </div>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: '3px' }}>
+              <div
+                style={{
+                  maxWidth: '88%',
+                  background: '#E2F1EF',
+                  border: '1px solid transparent',
+                  borderRadius: '10px',
+                  padding: '4px 8px',
+                  fontSize: '9.4px',
+                  lineHeight: '1.35',
+                }}
+              >
+                <b style={{ color: '#489D95', fontSize: '8.3px', display: 'block' }}>Petugas</b>
+                {'Kalau butuh bantuan, hubungi petugas jaga dengan '}
+                <b>warna sesuai QR Code</b>
+                {' Bapak/Ibu ya. Selamat menikmati BSI International Expo.'}
+              </div>
+            </div>
+          </div>
+          <div className="card" style={{ padding: '7px 10px 8px', borderTop: '4px solid #C9862A' }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+              <span className="tag" style={{ background: '#C9862A' }}>
+                {'Island & booth'}
+              </span>
+              <span className="b" style={{ fontSize: '11px' }}>
+                Menarik nasabah berkunjung ke booth
+              </span>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: '3px' }}>
+              <div
+                style={{
+                  maxWidth: '88%',
+                  background: '#E2F1EF',
+                  border: '1px solid transparent',
+                  borderRadius: '10px',
+                  padding: '4px 8px',
+                  fontSize: '9.4px',
+                  lineHeight: '1.35',
+                }}
+              >
+                <b style={{ color: '#489D95', fontSize: '8.3px', display: 'block' }}>Petugas</b>
+                {'Mari Pak/Bu/Kak.. silakan, bisa dapat '}
+                <b>poin 10</b>
+                {' di '}
+                <b>Booth Griya</b>
+                {' ini.'}
+              </div>
+            </div>
+            <div style={{ fontSize: '8.8px', color: '#6b6c70', marginTop: '3px', fontStyle: 'italic' }}>
+              Sesuaikan dengan lokasi booth dan poin yang didapatkan nasabah.
+            </div>
+            <a href="#p-gm-poin" className="tap" style={{ color: '#C9862A', marginTop: '4px' }}>
+              {'Cek jumlah poin tiap island '}
+              <svg viewBox="0 0 24 24" fill="none" stroke="#C9862A" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="foot" style={{}}>
+        <span className="pn" style={{}}>
+          52
+        </span>
+        <div className="prog">
+          <a href="#c1" style={{ background: '#489D95', opacity: '0.25' }} />
+          <a href="#c2" style={{ background: '#C83835', opacity: '0.25' }} />
+          <a href="#c3" style={{ background: '#EEA948', opacity: '0.25' }} />
+          <a href="#c4" style={{ background: '#53545A', opacity: '0.25' }} />
+          <a href="#c5" style={{ background: '#489D95', opacity: '0.25' }} />
+          <a href="#c6" style={{ background: '#C83835', opacity: '1' }} />
+          <a href="#cg" style={{ background: '#489D95', opacity: '0.25' }} />
+          <a href="#c7" style={{ background: '#EEA948', opacity: '0.25' }} />
+        </div>
+        <span
+          style={{ display: 'inline-flex', alignItems: 'center', gap: '3px', fontWeight: '700', letterSpacing: '.2px', color: '#C83835' }}
+        >
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#C83835"
+            strokeWidth="2.4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '10px', height: '10px' }}
+          >
+            <rect x="3" y="11" width="18" height="11" rx="2" />
+            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+          </svg>
+          Internal BSI
+        </span>
+      </div>
+    </section>
+  );
+}

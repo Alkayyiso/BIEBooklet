@@ -1,0 +1,337 @@
+export default function PageC5() {
+  return (
+    <section className="page" id="c5" style={{ background: '#489D95', color: '#fff' }}>
+      <div
+        style={{
+          position: 'absolute',
+          right: '-90px',
+          top: '60px',
+          width: '300px',
+          height: '300px',
+          borderRadius: '50%',
+          background: '#C83835',
+        }}
+      />
+      <div
+        style={{
+          position: 'absolute',
+          right: '28px',
+          top: '80px',
+          width: '200px',
+          height: '200px',
+          borderRadius: '50%',
+          overflow: 'hidden',
+          border: '6px solid #fff',
+          background: '#fff',
+        }}
+      >
+        <img src="assets/img/woman.jpg" alt="" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+      </div>
+      <div
+        style={{
+          position: 'absolute',
+          left: '-30px',
+          top: '330px',
+          width: '90px',
+          height: '90px',
+          borderRadius: '0 90px 0 0',
+          background: 'rgba(255,255,255,.18)',
+        }}
+      />
+      <div className="top">
+        <img src="assets/img/blgg_white.png" alt="" />
+        <div className="ev" style={{ color: 'rgba(255,255,255,.8)' }}>
+          <b style={{ color: '#fff' }}>BSI International Expo 2026</b>Booklet Petugas
+        </div>
+        <div className="sp" />
+        <a className="chip" href="#c5" style={{ background: 'rgba(255,255,255,.22)' }}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="3" />
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.6 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.6a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+          </svg>
+          Bab 05
+        </a>
+        <a className="navbtn" href="#toc" style={{ background: '#fff', color: '#26272B' }}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="#26272B" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+          Isi
+        </a>
+      </div>
+      <div
+        style={{
+          position: 'absolute',
+          left: '24px',
+          top: '70px',
+          fontSize: '120px',
+          fontWeight: '900',
+          lineHeight: '1',
+          opacity: '.95',
+          letterSpacing: '-4px',
+        }}
+      >
+        05
+      </div>
+      <div style={{ position: 'absolute', left: '24px', right: '24px', top: '335px' }}>
+        <div className="kick" style={{ color: 'rgba(255,255,255,.75)' }}>
+          Bab 05
+        </div>
+        <div style={{ fontSize: '36px', fontWeight: '900', lineHeight: '1.02', letterSpacing: '-.6px', margin: '4px 0 8px' }}>
+          Operasional
+        </div>
+        <div style={{ fontSize: '12px', opacity: '.9', marginBottom: '16px', maxWidth: '320px' }}>
+          Kesiapan layanan, dukungan IT, penanganan insiden, enabler, dan pelaporan
+        </div>
+        <a
+          href="#p-kesiapan"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(255,255,255,.14)',
+            borderRadius: '12px',
+            padding: '6px 12px',
+            marginBottom: '4px',
+          }}
+        >
+          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
+            Kesiapan Operasional
+          </span>
+          <span className="xs" style={{ opacity: '.75' }}>
+            hal 32
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a
+          href="#p-it"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(255,255,255,.14)',
+            borderRadius: '12px',
+            padding: '6px 12px',
+            marginBottom: '4px',
+          }}
+        >
+          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
+            Perangkat IT
+          </span>
+          <span className="xs" style={{ opacity: '.75' }}>
+            hal 33
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a
+          href="#p-it-standby"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(255,255,255,.14)',
+            borderRadius: '12px',
+            padding: '6px 12px',
+            marginBottom: '4px',
+          }}
+        >
+          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
+            Tim IT Standby
+          </span>
+          <span className="xs" style={{ opacity: '.75' }}>
+            hal 34
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a
+          href="#p-insiden"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(255,255,255,.14)',
+            borderRadius: '12px',
+            padding: '6px 12px',
+            marginBottom: '4px',
+          }}
+        >
+          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
+            Penanganan Insiden IT
+          </span>
+          <span className="xs" style={{ opacity: '.75' }}>
+            hal 35
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a
+          href="#p-insiden2"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(255,255,255,.14)',
+            borderRadius: '12px',
+            padding: '6px 12px',
+            marginBottom: '4px',
+          }}
+        >
+          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
+            {'Insiden IT: BCP & Review'}
+          </span>
+          <span className="xs" style={{ opacity: '.75' }}>
+            hal 36
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a
+          href="#p-enabler"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(255,255,255,.14)',
+            borderRadius: '12px',
+            padding: '6px 12px',
+            marginBottom: '4px',
+          }}
+        >
+          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
+            {'Kartu & Buku Tabungan'}
+          </span>
+          <span className="xs" style={{ opacity: '.75' }}>
+            hal 37
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <a
+          href="#p-oase"
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '10px',
+            background: 'rgba(255,255,255,.14)',
+            borderRadius: '12px',
+            padding: '6px 12px',
+            marginBottom: '4px',
+          }}
+        >
+          <span className="b" style={{ flex: '1', fontSize: '12.5px' }}>
+            Pelaporan OASE
+          </span>
+          <span className="xs" style={{ opacity: '.75' }}>
+            hal 38
+          </span>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '14px', height: '14px' }}
+          >
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+      </div>
+      <div className="foot" style={{ color: '#fff' }}>
+        <span className="pn" style={{ color: '#fff' }}>
+          31
+        </span>
+        <div className="prog">
+          <a href="#c1" style={{ background: '#fff', opacity: '0.35' }} />
+          <a href="#c2" style={{ background: '#fff', opacity: '0.35' }} />
+          <a href="#c3" style={{ background: '#fff', opacity: '0.35' }} />
+          <a href="#c4" style={{ background: '#fff', opacity: '0.35' }} />
+          <a href="#c5" style={{ background: '#fff', opacity: '1' }} />
+          <a href="#c6" style={{ background: '#fff', opacity: '0.35' }} />
+          <a href="#cg" style={{ background: '#fff', opacity: '0.35' }} />
+          <a href="#c7" style={{ background: '#fff', opacity: '0.35' }} />
+        </div>
+        <span style={{ display: 'inline-flex', alignItems: 'center', gap: '3px', fontWeight: '700', letterSpacing: '.2px', color: '#fff' }}>
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="#fff"
+            strokeWidth="2.4"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            style={{ width: '10px', height: '10px' }}
+          >
+            <rect x="3" y="11" width="18" height="11" rx="2" />
+            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+          </svg>
+          Internal BSI
+        </span>
+      </div>
+    </section>
+  );
+}
