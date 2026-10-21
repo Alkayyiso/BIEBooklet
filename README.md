@@ -14,9 +14,9 @@ npm run preview
 ## Structure
 ```
 index.html, vite.config.ts, tsconfig.json, metadata.json (Google AI Studio)
-public/assets/img      58 images        public/assets/fonts   4 TTF fonts (family "P")
+public/assets/img      153 images        public/assets/fonts   4 TTF fonts (family "P")
 src/main.tsx, App.tsx  entry; renders all pages in order + overlays
-src/pages/             46 page components (Page01Cover … Page46Back) and index.ts (page order + titles)
+src/pages/             67 page components, one per page id (PageCover, PageToc, PagePRingkas …) and index.ts (page order + titles)
 src/components/        ZoomImg (tap-to-zoom), Lightbox, Toast, Fab, Chk (checklist), Rd/Rt (live "SEKARANG" rundown rows), CopyWaButton
 src/hooks/             useFitScale (scale 430px pages to screen), useAnchorNav (smooth #links)
 src/styles/            original CSS split into 6 files
