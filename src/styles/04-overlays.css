@@ -1,0 +1,12 @@
+/* Floating nav buttons (FAB), image lightbox, toast */
+.fab{position:fixed;right:14px;bottom:16px;z-index:50;display:flex;flex-direction:column;gap:8px}
+.fab a{width:40px;height:40px;opacity:.92;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;box-shadow:0 4px 14px rgba(0,0,0,.25);font:700 10px P,sans-serif}
+.fab svg{width:20px;height:20px}
+#lb{position:fixed;inset:0;background:rgba(20,20,24,.94);z-index:100;display:none;overflow:auto;-webkit-overflow-scrolling:touch}
+#lb.on{display:block}
+#lb img{display:block;width:100%;height:auto;min-height:100%;object-fit:contain;touch-action:pinch-zoom}
+#lb.wide img{width:auto;height:92vh;max-width:none;margin:4vh auto}
+#lb .x{position:fixed;top:14px;right:14px;width:42px;height:42px;border-radius:50%;background:#fff;color:#26272B;font:800 20px/42px P,sans-serif;text-align:center;z-index:101;border:0;cursor:pointer}
+#lb .hint{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:rgba(255,255,255,.15);color:#fff;font:600 11px P,sans-serif;padding:6px 12px;border-radius:20px;white-space:nowrap}
+#toast{position:fixed;left:50%;bottom:80px;transform:translateX(-50%);background:#26272B;color:#fff;font:600 12px P,sans-serif;padding:9px 16px;border-radius:20px;opacity:0;transition:opacity .25s;z-index:120;pointer-events:none}
+#toast.on{opacity:1}

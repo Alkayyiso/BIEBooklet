@@ -1,0 +1,7 @@
+/* Book container, responsive page scaling, print/screen background */
+html{background:#E9E6DF}
+body{background:#E9E6DF;padding:0;-webkit-text-size-adjust:100%}
+.book{width:430px;margin:0 auto}
+.page{zoom:var(--s,1);margin:0 auto 14px;border-radius:0;box-shadow:0 6px 24px rgba(0,0,0,.12);break-after:auto}
+@media (min-width:600px){.page{border-radius:22px}body{padding:24px 0}}
+img[data-z]{cursor:zoom-in}

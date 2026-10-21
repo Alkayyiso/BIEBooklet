@@ -1,0 +1,21 @@
+/* Reusable components: card, tag, pill, icon bubble, table, etc. */
+.card{background:#fff;border-radius:14px;box-shadow:0 1px 0 rgba(0,0,0,.04),0 3px 10px rgba(40,40,50,.07);padding:12px 13px}
+.row{display:flex;gap:8px}
+.col{display:flex;flex-direction:column;gap:8px}
+.big{font-weight:900;letter-spacing:-.5px;line-height:1}
+.muted{color:#77787d}
+.small{font-size:10px}
+.xs{font-size:9px}
+.b{font-weight:700}
+.tag{display:inline-block;font-size:9px;font-weight:700;padding:2px 7px;border-radius:10px;color:#fff}
+.ic{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;flex:none}
+.ic svg{width:55%;height:55%}
+table{border-collapse:collapse;width:100%}
+.note{font-size:9.5px;color:#6b6c70;line-height:1.45}
+.tap{display:inline-flex;align-items:center;gap:3px;font-size:9px;font-weight:700}
+.tap svg{width:11px;height:11px}
+.dots{position:absolute;border-radius:50%}
+.pill svg{width:14px;height:14px}
+.tag svg{width:10px;height:10px;vertical-align:-1.5px}
+.pill{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:20px;font-size:10.5px;font-weight:600}
+.num{font-feature-settings:"tnum"}

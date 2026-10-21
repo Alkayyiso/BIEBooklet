@@ -1,0 +1,7 @@
+/* Checklist (.chk) and "SEKARANG" now-marker for rundown rows */
+.chk{cursor:pointer;-webkit-tap-highlight-color:transparent}
+.chk.done .box{background:#489D95;border-color:#489D95!important}
+.chk.done .box::after{content:"";width:5px;height:9px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.chk.done .b{text-decoration:line-through;opacity:.55}
+.rd.now>div:last-child{outline:2.5px solid #C83835;outline-offset:1px;box-shadow:0 4px 14px rgba(200,56,53,.3)}
+.nowtag{display:inline-block;background:#C83835;color:#fff;font:800 8px P,sans-serif;letter-spacing:.8px;padding:2px 6px;border-radius:8px;margin-left:6px;vertical-align:1px}

@@ -1,0 +1,416 @@
+[
+  {
+    "order": 1,
+    "id": "cover",
+    "file": "01-cover.html",
+    "pageNumber": null,
+    "title": null,
+    "kicker": "BSI International Expo 2026",
+    "isChapterCover": false
+  },
+  {
+    "order": 2,
+    "id": "toc",
+    "file": "02-toc.html",
+    "pageNumber": "02",
+    "title": "Mau cari apa hari ini?",
+    "kicker": "Daftar Isi",
+    "isChapterCover": false
+  },
+  {
+    "order": 3,
+    "id": "p-ringkas",
+    "file": "03-p-ringkas.html",
+    "pageNumber": "03",
+    "title": "Sekilas Expo 2026",
+    "kicker": "Ringkasan Kilat",
+    "isChapterCover": false
+  },
+  {
+    "order": 4,
+    "id": "c1",
+    "file": "04-c1.html",
+    "pageNumber": "04",
+    "title": null,
+    "kicker": "Bab 01",
+    "isChapterCover": true
+  },
+  {
+    "order": 5,
+    "id": "p-jadwal",
+    "file": "05-p-jadwal.html",
+    "pageNumber": "05",
+    "title": "Jadwal & Sesi",
+    "kicker": "Jadwal & Rundown",
+    "isChapterCover": false
+  },
+  {
+    "order": 6,
+    "id": "p-rundown1",
+    "file": "06-p-rundown1.html",
+    "pageNumber": "06",
+    "title": "Rundown Day 1",
+    "kicker": "Rundown · Jumat 23 Okt",
+    "isChapterCover": false
+  },
+  {
+    "order": 7,
+    "id": "p-rundown23",
+    "file": "07-p-rundown23.html",
+    "pageNumber": "07",
+    "title": "Rundown Day 2 & 3",
+    "kicker": "Rundown · Sabtu 24 & Minggu 25 Okt",
+    "isChapterCover": false
+  },
+  {
+    "order": 8,
+    "id": "c2",
+    "file": "08-c2.html",
+    "pageNumber": "08",
+    "title": null,
+    "kicker": "Bab 02",
+    "isChapterCover": true
+  },
+  {
+    "order": 9,
+    "id": "p-jalur",
+    "file": "09-p-jalur.html",
+    "pageNumber": "09",
+    "title": "4 Jalur Masuk",
+    "kicker": "Registrasi & Akses",
+    "isChapterCover": false
+  },
+  {
+    "order": 10,
+    "id": "p-undangan",
+    "file": "10-p-undangan.html",
+    "pageNumber": "10",
+    "title": "Alur Tamu Undangan",
+    "kicker": "Registrasi & Akses",
+    "isChapterCover": false
+  },
+  {
+    "order": 11,
+    "id": "p-walkin",
+    "file": "11-p-walkin.html",
+    "pageNumber": "11",
+    "title": "Alur Walk-In",
+    "kicker": "Registrasi & Akses",
+    "isChapterCover": false
+  },
+  {
+    "order": 12,
+    "id": "p-booth",
+    "file": "12-p-booth.html",
+    "pageNumber": "12",
+    "title": "Booth Registrasi",
+    "kicker": "Registrasi & Akses",
+    "isChapterCover": false
+  },
+  {
+    "order": 13,
+    "id": "p-tiket",
+    "file": "13-p-tiket.html",
+    "pageNumber": "13",
+    "title": "Kenali Warna Tiket",
+    "kicker": "Registrasi & Akses",
+    "isChapterCover": false
+  },
+  {
+    "order": 14,
+    "id": "p-form",
+    "file": "14-p-form.html",
+    "pageNumber": "14",
+    "title": "Form Registrasi",
+    "kicker": "Registrasi & Akses",
+    "isChapterCover": false
+  },
+  {
+    "order": 15,
+    "id": "p-link",
+    "file": "15-p-link.html",
+    "pageNumber": "15",
+    "title": "Link Registrasi & Dashboard",
+    "kicker": "Registrasi & Akses",
+    "isChapterCover": false
+  },
+  {
+    "order": 16,
+    "id": "p-wa",
+    "file": "16-p-wa.html",
+    "pageNumber": "16",
+    "title": "Script Undangan WA",
+    "kicker": "Registrasi & Akses",
+    "isChapterCover": false
+  },
+  {
+    "order": 17,
+    "id": "c3",
+    "file": "17-c3.html",
+    "pageNumber": "17",
+    "title": null,
+    "kicker": "Bab 03",
+    "isChapterCover": true
+  },
+  {
+    "order": 18,
+    "id": "p-area",
+    "file": "18-p-area.html",
+    "pageNumber": "18",
+    "title": "Petunjuk Area",
+    "kicker": "Venue & Zona",
+    "isChapterCover": false
+  },
+  {
+    "order": 19,
+    "id": "p-halla",
+    "file": "19-p-halla.html",
+    "pageNumber": "19",
+    "title": "Hall A",
+    "kicker": "Venue & Zona",
+    "isChapterCover": false
+  },
+  {
+    "order": 20,
+    "id": "p-hallb",
+    "file": "20-p-hallb.html",
+    "pageNumber": "20",
+    "title": "Hall B",
+    "kicker": "Venue & Zona",
+    "isChapterCover": false
+  },
+  {
+    "order": 21,
+    "id": "p-pavilion",
+    "file": "21-p-pavilion.html",
+    "pageNumber": "21",
+    "title": "BSI Pavilion",
+    "kicker": "Venue & Zona",
+    "isChapterCover": false
+  },
+  {
+    "order": 22,
+    "id": "c4",
+    "file": "22-c4.html",
+    "pageNumber": "22",
+    "title": null,
+    "kicker": "Bab 04",
+    "isChapterCover": true
+  },
+  {
+    "order": 23,
+    "id": "p-shift",
+    "file": "23-p-shift.html",
+    "pageNumber": "23",
+    "title": "Pola Shift & Titik Kritis",
+    "kicker": "Tim & Shift",
+    "isChapterCover": false
+  },
+  {
+    "order": 24,
+    "id": "p-tenaga",
+    "file": "24-p-tenaga.html",
+    "pageNumber": "24",
+    "title": "Komposisi Tenaga Kerja",
+    "kicker": "Tim & Shift",
+    "isChapterCover": false
+  },
+  {
+    "order": 25,
+    "id": "p-rekap",
+    "file": "25-p-rekap.html",
+    "pageNumber": "25",
+    "title": "Rekap per Regional Office",
+    "kicker": "Tim & Shift",
+    "isChapterCover": false
+  },
+  {
+    "order": 26,
+    "id": "p-jumat",
+    "file": "26-p-jumat.html",
+    "pageNumber": "26",
+    "title": "Siapa jaga di mana?",
+    "kicker": "Penempatan · Jumat 23 Okt",
+    "isChapterCover": false
+  },
+  {
+    "order": 27,
+    "id": "p-weekend",
+    "file": "27-p-weekend.html",
+    "pageNumber": "27",
+    "title": "Akhir pekan, 2 shift",
+    "kicker": "Penempatan · Sabtu & Minggu",
+    "isChapterCover": false
+  },
+  {
+    "order": 28,
+    "id": "p-pic",
+    "file": "28-p-pic.html",
+    "pageNumber": "28",
+    "title": "Tugas PIC Area/RO",
+    "kicker": "Tim & Shift",
+    "isChapterCover": false
+  },
+  {
+    "order": 29,
+    "id": "p-picritme",
+    "file": "29-p-picritme.html",
+    "pageNumber": "29",
+    "title": "Ritme Harian PIC",
+    "kicker": "Tim & Shift",
+    "isChapterCover": false
+  },
+  {
+    "order": 30,
+    "id": "c5",
+    "file": "30-c5.html",
+    "pageNumber": "30",
+    "title": null,
+    "kicker": "Bab 05",
+    "isChapterCover": true
+  },
+  {
+    "order": 31,
+    "id": "p-kesiapan",
+    "file": "31-p-kesiapan.html",
+    "pageNumber": "31",
+    "title": "Kesiapan Operasional",
+    "kicker": "Operasional",
+    "isChapterCover": false
+  },
+  {
+    "order": 32,
+    "id": "p-it",
+    "file": "32-p-it.html",
+    "pageNumber": "32",
+    "title": "Perangkat IT",
+    "kicker": "Operasional",
+    "isChapterCover": false
+  },
+  {
+    "order": 33,
+    "id": "p-enabler",
+    "file": "33-p-enabler.html",
+    "pageNumber": "33",
+    "title": "Kartu & Buku Tabungan",
+    "kicker": "Operasional",
+    "isChapterCover": false
+  },
+  {
+    "order": 34,
+    "id": "p-oase",
+    "file": "34-p-oase.html",
+    "pageNumber": "34",
+    "title": "Pelaporan OASE",
+    "kicker": "Operasional",
+    "isChapterCover": false
+  },
+  {
+    "order": 35,
+    "id": "c6",
+    "file": "35-c6.html",
+    "pageNumber": "35",
+    "title": null,
+    "kicker": "Bab 06",
+    "isChapterCover": true
+  },
+  {
+    "order": 36,
+    "id": "p-dress",
+    "file": "36-p-dress.html",
+    "pageNumber": "36",
+    "title": "Dress Code",
+    "kicker": "Sikap & Penampilan",
+    "isChapterCover": false
+  },
+  {
+    "order": 37,
+    "id": "p-service",
+    "file": "37-p-service.html",
+    "pageNumber": "37",
+    "title": "Service Excellence",
+    "kicker": "Sikap & Penampilan",
+    "isChapterCover": false
+  },
+  {
+    "order": 38,
+    "id": "p-dodont",
+    "file": "38-p-dodont.html",
+    "pageNumber": "38",
+    "title": "Do & Don't",
+    "kicker": "Sikap & Penampilan",
+    "isChapterCover": false
+  },
+  {
+    "order": 39,
+    "id": "c7",
+    "file": "39-c7.html",
+    "pageNumber": "39",
+    "title": null,
+    "kicker": "Bab 07",
+    "isChapterCover": true
+  },
+  {
+    "order": 40,
+    "id": "p-evakuasi",
+    "file": "40-p-evakuasi.html",
+    "pageNumber": "40",
+    "title": "Jalur Evakuasi & Titik Kumpul",
+    "kicker": "Keselamatan",
+    "isChapterCover": false
+  },
+  {
+    "order": 41,
+    "id": "p-exit",
+    "file": "41-p-exit.html",
+    "pageNumber": "41",
+    "title": "6 Emergency Exit",
+    "kicker": "Keselamatan",
+    "isChapterCover": false
+  },
+  {
+    "order": 42,
+    "id": "p-apar",
+    "file": "42-p-apar.html",
+    "pageNumber": "42",
+    "title": "APAR, Dispenser & Tempat Sampah",
+    "kicker": "Keselamatan",
+    "isChapterCover": false
+  },
+  {
+    "order": 43,
+    "id": "p-damkar",
+    "file": "43-p-damkar.html",
+    "pageNumber": "43",
+    "title": "Mobil Damkar & Fasilitas VIP",
+    "kicker": "Keselamatan",
+    "isChapterCover": false
+  },
+  {
+    "order": 44,
+    "id": "p-fasilitas",
+    "file": "44-p-fasilitas.html",
+    "pageNumber": "44",
+    "title": "Fasilitas Umum & Emergency",
+    "kicker": "Keselamatan",
+    "isChapterCover": false
+  },
+  {
+    "order": 45,
+    "id": "p-keamanan",
+    "file": "45-p-keamanan.html",
+    "pageNumber": "45",
+    "title": "Keamanan & BCM",
+    "kicker": "Keselamatan",
+    "isChapterCover": false
+  },
+  {
+    "order": 46,
+    "id": "back",
+    "file": "46-back.html",
+    "pageNumber": "46",
+    "title": null,
+    "kicker": "Akses cepat",
+    "isChapterCover": false
+  }
+]
